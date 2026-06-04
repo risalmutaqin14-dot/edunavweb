@@ -1,0 +1,544 @@
+{
+  "meta": {
+    "title": "Edunav | Integrated School Information System & Academic Management",
+    "desc": "Discover Edunav, your trusted school digital transformation partner. Secure & integrated school management information system solutions."
+  },
+  "navbar": {
+    "home": "Home",
+    "about": "About",
+    "benefit": "Benefits",
+    "features": "Features",
+    "partners": "Partners",
+    "blog": "Blogs",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "btn_demo": "Free Demo",
+    "btn_login": "Login"
+  },
+  "hero": {
+    "title": "School Information System for Modern Educational Institutions",
+    "desc": "Edunav is an integrated school information system designed to support academic management, school administration, communication, and financial operations in one secure and scalable platform. Edunav is built to support real-world school operations, institutional governance, and long-term digital transformation.",
+    "btn_demo": "Request a Free Demo",
+    "btn_zoom": "Schedule via WA/Zoom"
+  },
+  "counter": {
+    "title1": "Trusted School Information System Used Across Indonesia and Asia",
+    "desc": "Edunav is actively used by educational institutions with different school models, curricula, and operational needs.",
+    "country": "Countries",
+    "school": "Schools",
+    "user": "Active Users",
+    "years": "Years of Dedication"
+  },
+  "whyChooseUs": {
+    "hook": "Why Choose Edunav?",
+    "title": "One Integrated School Management System for All School Needs",
+    "desc": "Edunav consolidates multiple school systems into one integrated school information system, eliminating fragmented tools and manual processes.",
+    "card": {
+      "card1": "Academic and learning management",
+      "card2": "School administration workflows",
+      "card3": "Student assessment and reporting",
+      "card4": "Communication between school and parents",
+      "card5": "School finance and billing",
+      "card6": "Institutional monitoring and reporting"
+    },
+    "desc2": "This unified approach improves efficiency, transparency, and data consistency."
+  },
+  "benefit": {
+    "title": "What are the benefits of EDUNAV?",
+    "desc": "EDUNAV helps schools manage information efficiently and in real-time. With modern features and an interactive interface, this application supports productivity and transparency in educational administration.",
+    "btn_brosur": "Download Brochure",
+    "point": {
+      "point1": "Student Enrollment System",
+      "point2": "Learning Management System",
+      "point3": "Teacher & Student Assessment",
+      "point4": "Administration System",
+      "point5": "Finance Module"
+    }
+  },
+  "edunavCommunication": {
+    "hook": "Edunav Chat – Parent Communication System",
+    "title": "Secure School Communication and Engagement",
+    "summary": "Real-time communication between parents, teachers, and staff in one integrated platform.",
+    "points": {
+      "1": "Send text, images, and documents like modern chat apps",
+      "2": "Conversation history neatly stored for reference and follow-up",
+      "3": "Communication patterns can be customized according to school policy"
+    }
+  },
+  "edunavExam": {
+    "hook": "Edunav Exam – Secure CBT Platform",
+    "title": "Online Examination and Computer-Based Testing System",
+    "summary": "Secure CBT platform with automatic grading and integrated anti-cheating features.",
+    "points": {
+      "1": "Various question types with automatic grading for quick correction",
+      "2": "Security features: cheating prevention, camera monitoring, SEB support",
+      "3": "App Pinning on mobile to prevent cheating during exams"
+    }
+  },
+  "edunavAI": {
+    "hook": "Edunav AI",
+    "title": "Assistive Artificial Intelligence for Education",
+    "summary": "Integrated AI technology to enhance efficiency and quality of academic processes in schools.",
+    "pointAI": {
+      "point1": "Automated lesson plan generation",
+      "point2": "Scheduling assistance",
+      "point3": "IELTS, TOEFL, and IGCSE preparation tests",
+      "point4": "Mathematics evaluation with quick and accurate analysis"
+    }
+  },
+  "edunavPayment": {
+    "hook": "Edunav Finance",
+    "title": "Payment Gateway Integration",
+    "summary": "Pay school bills directly from the app with various payment methods.",
+    "points": {
+      "1": "Support bank transfer, e-wallet, PayPal, and credit cards",
+      "2": "Custom integration with partner banks if needed",
+      "3": "Transactions recorded automatically with real-time monitoring"
+    }
+  },
+  "Partners": {
+    "tag": "Partners",
+    "title": "Realize Better Education",
+    "desc": "Partner with Edunav to Improve School Management Quality"
+  },
+  "testimonials": {
+    "title": "What Do They Say About Edunav?",
+    "testi1": {
+      "name": "Redi Rahmat",
+      "title": "PE Teacher",
+      "company": "Kharisma Bangsa School",
+      "content": "Edunav makes teaching administration much faster and neater at Kharisma Bangsa School. Attendance, lesson plans, grading, and report cards that used to be manual are now integrated and automated. I can monitor student progress easily and focus on the learning process, not administrative work. Edunav truly increases teacher work efficiency."
+    },
+    "testi2": {
+      "name": "Adib",
+      "title": "Math Teacher & Counselor",
+      "company": "Fatih Bilingual School",
+      "content": "Edunav LMS is very helpful for the learning process inside and outside the classroom. Teachers can provide materials, evaluations, and monitor student progress easily, while parents can follow their child's development in real-time. Homeroom administration features, counseling guidance, to the red card and green card system make monitoring student behavior and development much more structured. Edunav truly facilitates teachers, students, and parents in the entire learning process."
+    },
+    "testi3": {
+      "name": "Akbar Dermawan Sinaga",
+      "title": "Academic Staff",
+      "company": "Fatih Bilingual School",
+      "content": "Edunav presents a complete and integrated academic system at Fatih Bilingual School. Teachers can create lesson plans, upload materials, assign tasks, and grade directly on the platform. Homeroom teachers easily monitor student progress through guidance features, career planning, to the green card and red card system. Attendance is automatically connected with fingerprints, and parents can monitor their child's development anytime. Edunav facilitates the entire learning and school management process."
+    }
+  },
+  "faq": {
+    "hook": "Q&A",
+    "title": "Frequently Asked Questions",
+    "desc": "Find quick answers regarding features, security, and Edunav services here.",
+    "other": "Have other questions?",
+    "question1": {
+      "question": "What is Edunav?",
+      "answer": "Edunav is an integrated school management information system that helps digitalize administration, academics, and communication between schools and parents in one platform."
+    },
+    "question2": {
+      "question": "How much is the Edunav subscription?",
+      "answer": "Edunav uses an annual/monthly subscription scheme with costs adjusted to the number of students and school feature needs. To get the most accurate price quote, schools can fill out the “Free Demo” form and the Edunav team will provide an official proposal according to the institution's profile."
+    },
+    "question3": {
+      "question": "Does Edunav support various curricula (Merdeka, Cambridge, IB, etc.)?",
+      "answer": "Yes, Edunav supports the Merdeka Curriculum as well as international curricula like Cambridge and IB through lesson plan features, academic management, and flexible report card layout creation. The system also supports special needs such as Quranic programs, career planning, to IELTS, TOEFL, and IGCSE preparation with other application integrations."
+    },
+    "question4": {
+      "question": "How long is the Edunav implementation process?",
+      "answer": "Implementation time depends on the number of students, data complexity, and activated modules, but generally starts from a few weeks to several months. The Edunav team will assist in the data migration process, curriculum configuration, teacher training, and testing before the system is fully used."
+    },
+    "question5": {
+      "question": "Can Edunav be integrated with fingerprint, WhatsApp, and payment gateways?",
+      "answer": "Yes, Edunav supports integration with fingerprint machines for attendance, third-party WhatsApp notification services, and various payment gateways for school bill payments. All transactions and integration data are recorded automatically in the system for easy monitoring by school management."
+    },
+    "question6": {
+      "question": "How secure is school data in Edunav?",
+      "answer": "Edunav uses enterprise-level encryption and automatic backup systems to protect school academic and financial data. Access rights are also arranged based on roles so that only authorized parties can view or change certain data."
+    },
+    "question7": {
+      "question": "Who can access Edunav (teachers, students, parents)?",
+      "answer": "Edunav provides separate access for teachers, students, and parents so that each user only sees relevant features and information. Parents can monitor attendance, grades, and child development in real-time through the provided application or portal."
+    }
+  },
+  "footer": {
+    "desc": "Integrated School Information System for Modern Educational Institutions",
+    "menu1": "Contact Us",
+    "menu2": "Available on",
+    "menu3": "Registered at",
+    "copyright": "Copyright Ⓒ 2025, PT Global Zerone Digital. All Rights Reserved."
+  },
+  "features": {
+    "title_small": "School Information System",
+    "title_main": "Edunav Feature Details",
+    "categories": {
+      "managerial": {
+        "title": "Managerial Features",
+        "summary": "Centralized management control for foundations and institutions with integrated monitoring.",
+        "items": {
+          "dashboard": {
+            "title": "Foundation Dashboard",
+            "desc": "For foundations or institutions with multiple tenants, Edunav provides an HQ Dashboard as a centralized monitoring center for all schools in one integrated view. This dashboard presents real-time academic, financial, attendance, and operational data for each campus. Information between schools can be easily compared to see trends, performance, and areas needing attention. This feature is designed to help central management make data-driven strategic decisions quickly and accurately."
+          },
+          "admission": {
+            "title": "New Student Admission",
+            "desc": "The Admission Module manages the entire new student admission process, from registration, data verification, to reporting. Every stage is recorded digitally to ensure the PPDB process runs efficiently, transparently, and is well-documented."
+          },
+          "appraisal": {
+            "title": "Appraisal Module",
+            "desc": "The Appraisals Module provides a structured and transparent performance appraisal system for teachers and staff. Schools can use Edunav's standard rubrics or customize them to internal policies to ensure evaluations are conducted objectively and consistently."
+          },
+          "student_survey": {
+            "title": "Student Survey",
+            "desc": "The Student Survey feature allows schools to collect student feedback regarding learning experiences, school comfort, and learning quality. The collected data helps management evaluate and improve services."
+          },
+          "parent_survey": {
+            "title": "Parent Survey",
+            "desc": "The Parent Survey provides a structured way for schools to gather input from parents regarding academic and non-academic services. Each survey can be tailored to the school's preferences and needs to ensure the relevance of collected data. Survey results provide valuable insights to strengthen communication, improve service quality, and drive overall parent satisfaction."
+          },
+          "finance": {
+            "title": "School Finance",
+            "desc": "The Finance Module provides school financial management ranging from transactions, budgeting, reporting, to a digital payment system with multi-bank channels. All financial data is accurately recorded and accessible in reports ready for audit and evaluation."
+          }
+        }
+      },
+      "operational": {
+        "title": "Operational Features",
+        "summary": "Manage schedules, classes, and school operations with integrated systems.",
+        "items": {
+          "calendar": {
+            "title": "Academic Calendar",
+            "desc": "Academic Calendars allow schools to set the official academic calendar, including school days, exams, and holidays. All schedules are automatically synchronized to other modules so that teachers, students, and parents always receive accurate information."
+          },
+          "class_mgmt": {
+            "title": "Class Management",
+            "desc": "This feature is used to create and manage the class structure for each academic year. Each class is directly connected to student data, homeroom teachers, subjects, and schedules, serving as the main foundation for academic management in Edunav. This system ensures class information is neatly organized, integrated, and ready for all school academic processes."
+          },
+          "lesson_mgmt": {
+            "title": "Lesson Management",
+            "desc": "Schools can define the list of subjects and their learning structures. Lessons created will serve as a reference for teachers in teaching, assessment, and semester report preparation."
+          },
+          "course_mgmt": {
+            "title": "Subject Management",
+            "desc": "Courses are created to link subjects with teachers, classes, students, and schedules. Through this feature, all learning activities such as grading, attendance, and lesson plans are integrated into one digital workspace."
+          },
+          "schedule": {
+            "title": "Class Schedule",
+            "desc": "The Schedule Module provides flexible learning schedule settings with schedule clash detection. The created schedule will be displayed to all users and synchronized directly with the Attendance and Course modules."
+          },
+          "extra_curricular": {
+            "title": "Co-curricular & Extracurricular Management",
+            "desc": "This feature is used to create and manage extracurricular activities or student clubs. Each club has a schedule, person in charge (PIC), and a grading system that can be displayed on report cards."
+          },
+          "project_mgmt": {
+            "title": "Project Management",
+            "desc": "Schools can create academic or co-curricular projects involving many students and teachers. Each project has its own assessment indicators and can be monitored in a structured way throughout the semester."
+          },
+          "wa_notif": {
+            "title": "WA Notification (3rd party)",
+            "desc": "This feature allows schools to send automated messages via WhatsApp with third-party API integration. Notifications are sent for important information such as attendance, admission, finance, and medical treatment."
+          }
+        }
+      },
+      "academic": {
+        "title": "Academic Features",
+        "summary": "Manage learning, assessment, and reporting in a digital ecosystem.",
+        "items": {
+          "lesson_plan": {
+            "title": "Lesson Plan Management",
+            "desc": "The Lesson Plan feature helps teachers structure learning plans and connects directly with the teaching LMS. Documents can be reviewed by management, and the approval flow can be adjusted to school policies to ensure lesson planning quality."
+          },
+          "lms": {
+            "title": "LMS",
+            "desc": "The LMS provides a digital space for teaching materials, assignments, student work submission, and class communication. All learning activities are documented and can be monitored by teachers, management, and parents."
+          },
+          "syllabus": {
+            "title": "Syllabus/Material",
+            "desc": "The Syllabus Module allows schools to set curriculum, learning outcomes, and material structure for each subject. Teachers use the syllabus as a reference for classroom activities."
+          },
+          "attendance": {
+            "title": "Presence & Attendance",
+            "desc": "The Attendance feature records student presence daily or per learning session. Attendance data is integrated with schedules, report card modules, and WhatsApp notifications for unexplained absences."
+          },
+          "journal": {
+            "title": "Journal and Reflection",
+            "desc": "Journals function as daily teacher learning activity records related to class activities, student progress, and teaching agendas. These notes support academic evaluation and internal school reporting."
+          },
+          "gradebook": {
+            "title": "Gradebook",
+            "desc": "The Gradebook allows teachers to manage student grades for various types of assessments. The system supports automatic calculations, grade weight settings, and report card generation."
+          },
+          "report": {
+            "title": "School Report Card",
+            "desc": "The Reporting Module manages the entire report card creation process from grade input, comments, attendance, to printing. Report card templates and layouts can be customized and configured according to school standards or specific curricula."
+          }
+        }
+      },
+      "student": {
+        "title": "Student Features",
+        "summary": "Monitor student progress from attendance to academic achievement.",
+        "items": {
+          "entry": {
+            "title": "Student Entry",
+            "desc": "The Student Entry feature allows schools to monitor student activity when entering or leaving school premises. All attendance data is automatically recorded in the system to support security and daily monitoring. This feature can connect with school attendance devices, including fingerprint, face recognition, and RFID scanner."
+          },
+          "clubs": {
+            "title": "Clubs & Extracurriculars",
+            "desc": "The Clubs Module allows students to view extracurricular activities they participate in, including schedules, grades, and comments from the PIC. This information is also connected to student progress reports."
+          },
+          "house": {
+            "title": "House System",
+            "desc": "The Housing feature is used to manage the house system, which divides students into groups to build camaraderie and competition. Each student is placed in one house throughout their school time. Each house has its own identity, such as the name of a figure, animal, or color. Through this feature, schools can record house members, activities, and point acquisition from various competitions. This system helps foster spirit, student character, and cooperation among members."
+          },
+          "permissions": {
+            "title": "Student Permissions",
+            "desc": "The Permissions Module helps manage student permission requests, such as early dismissal, leave, or special activities. The approval process is done digitally and clearly documented."
+          },
+          "discipline": {
+            "title": "Discipline Points",
+            "desc": "The Discipline feature records student disciplinary violations or awards through a point or card system. Discipline data is used for monitoring character development and can be displayed on report cards if needed."
+          },
+          "career": {
+            "title": "Student Career Mapping",
+            "desc": "The Career Planning Module helps students plan academic and career goals, such as university targets, portfolios, and consultation notes. This feature supports more targeted guidance by guidance counselors or school counselors."
+          },
+          "quranic": {
+            "title": "Islamic School Program (Tahfidz)",
+            "desc": "The Quranic Program feature helps schools manage Quranic learning development at school, including memorization, reading, and attendance. The system supports Tahfidz, Tahsin, and Khatam programs, which can be adjusted to the school program. All student progress is recorded structurally and can be displayed in learning reports."
+          }
+        }
+      },
+      "teacher": {
+        "title": "Teacher & Homeroom Features",
+        "summary": "Support teacher productivity with assessment and administration tools.",
+        "items": {
+          "portfolio": {
+            "title": "Teacher Portfolio",
+            "desc": "The Portfolios Module stores teachers' professional history, including certificates, teaching experience, and other supporting documents. This feature helps schools monitor competency development and teacher development needs."
+          },
+          "workload": {
+            "title": "Teacher Teaching Load",
+            "desc": "The Teaching Loads feature displays the distribution of teaching hours for each teacher based on schedules and subjects. This data makes it easier for management to evaluate workloads and academic planning."
+          },
+          "appraisal": {
+            "title": "Teacher Appraisal",
+            "desc": "The Teacher Appraisals Module provides a structured teacher performance appraisal system. Schools can use Edunav's standard rubrics or custom ones to ensure evaluations are conducted objectively and consistently."
+          },
+          "substitute": {
+            "title": "Substitute Teacher",
+            "desc": "The Substitute Teacher feature facilitates the assignment of substitute teachers when the main teacher is unable to attend. The system displays teacher availability and automatically updates class schedules."
+          },
+          "eform": {
+            "title": "Administrative Disposition (E-form)",
+            "desc": "The E-Form Module provides a digital submission system with an approval flow that can be adjusted according to school policy. This feature supports various types of requests, such as purchase requests, staff leave, facility usage, special submissions, medical credit, and overtime requests. All processes are recorded structurally and can be configured according to school needs."
+          },
+          "overtime": {
+            "title": "Overtime Information (E-Form)",
+            "desc": "This feature allows teachers to formally submit overtime requests via E-Form. All requests are recorded, processed according to the approval flow, and well-documented for HR and payroll purposes."
+          }
+        }
+      },
+      "extra": {
+        "title": "Extra Features",
+        "summary": "Communication, CBT, and facilities supporting the school ecosystem.",
+        "items": {
+          "chat": {
+            "title": "Edunav Chat",
+            "desc": "Edunav Chat allows the entire school community to communicate directly within the system. By default, staff can communicate with fellow staff, students can contact subject teachers and homeroom teachers, and parents can interact with homeroom teachers. This communication pattern can be adjusted according to school policies and preferences."
+          },
+          "stories": {
+            "title": "Edunav Stories (Social Media)",
+            "desc": "Edunav Stories functions as the school's internal social media, similar to Instagram but private and only for the school community. Teachers, homeroom teachers, or the PR team can post content, while parents and students can react or comment to increase engagement."
+          },
+          "news": {
+            "title": "School News",
+            "desc": "The News feature is used to publish articles or official school information. Each post can be targeted to specific groups such as parents, staff, or students so that information delivery becomes more relevant and targeted."
+          },
+          "announcement": {
+            "title": "School Announcement",
+            "desc": "Announcements are used to convey important announcements that will appear as notifications and pop-ups when users log in. This feature ensures crucial messages are received by all users on time."
+          },
+          "broadcast": {
+            "title": "Information Broadcast",
+            "desc": "Broadcast allows schools to send mass information, both general announcements and finance-related notifications. Messages can be sent through various channels such as app notifications, email, or WhatsApp, so communication can reach the entire school community quickly and effectively."
+          },
+          "cbt": {
+            "title": "CBT Application",
+            "desc": "The Exam Platform provides a secure digital exam system integrated with school academic data. Security features include cheating prevention, camera monitoring, and SEB (Safe Exam Browser) support. The system supports various question types with automatic grading, making it easier for teachers to create, monitor, and grade."
+          },
+          "facilities": {
+            "title": "School Facilities & Infrastructure",
+            "desc": "The Facilities Module helps schools manage facilities such as classrooms, auditoriums, and school equipment. Requests and approvals for facility usage are done digitally to ensure availability and orderly use."
+          },
+          "inventory": {
+            "title": "School Inventory Management",
+            "desc": "The Inventory feature is used to record, track, and manage school assets, including consumables and educational equipment. The system ensures transparency, stock control, and efficiency in procurement and distribution processes."
+          },
+          "library": {
+            "title": "School Library",
+            "desc": "The Library Module manages all library activities, from borrowing, returning, book catalogs, to visit statistics. This feature supports modern library management that is easily accessible to students and teachers."
+          },
+          "clinic": {
+            "title": "School Clinic",
+            "desc": "The Health/Clinic feature records student health information, including check-ups, treatment, and daily medical records. This centralized health data helps schools monitor student well-being and ensures quick communication with parents when needed."
+          }
+        }
+      }
+    }
+  },
+  "contact": {
+    "title": "Request a Demo of the Edunav School Information System",
+    "desc": "Talk to our team to explore how Edunav can support your school’s operational needs and long-term digital strategy."
+  },
+  "blog": {
+    "tag": "Articles",
+    "title": "News & Articles",
+    "sub-title": "Updates, tips, and case studies about using Edunav in schools.",
+    "read_more": "Read More",
+    "prev": "Prev",
+    "next": "Next",
+    "not_found": "Article not found.",
+    "back_to_blog": "Back to Home"
+  },
+  "blogpost": {
+    "breadcrumb_home": "Home",
+    "breadcrumb_blog": "Blog",
+    "share_article": "Share Article",
+    "share_x": "Tweet",
+    "share_whatsapp": "WhatsApp",
+    "copy_link": "Copy Link",
+    "copied": "Link Copied!",
+    "reading_time": "{{minutes}} min read",
+    "insight_label": "Edunav Insight",
+    "tags": "Tags",
+    "cta_eyebrow": "Edunav",
+    "cta_button": "Contact Us",
+    "related": "Related Articles",
+    "related_title": "Related articles you may like",
+    "view_all": "View all",
+    "read_more": "Read more",
+    "not_found": "Article not found",
+    "not_found_desc": "The page you are looking for is unavailable or the article slug has changed.",
+    "back_to_blog": "Back to Blog",
+    "cta_title": "Build a more modern digital school experience.",
+    "cta_desc": "See how Edunav helps operations, communication, and learning work in one integrated system."
+  },
+  "legal": {
+    "back_home": "Back to Home"
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "effective_date": "Updated",
+    "date": "1 January 2025",
+    "intro": {
+      "title": "Introduction",
+      "p1": "Global Zerone Digital & Edukasi Universal Indonesia (Eduversal) built the Edunav app as a Free app. This SERVICE is provided by Global Zerone Digital at no cost and is intended for use as is, especially for school partners.",
+      "p2": "This page is used to inform visitors regarding our policies regarding the collection, use, and disclosure of Personal Information if anyone decided to use our Service.",
+      "p3": "If you choose to use our Service, then you agree to the collection and use of information in relation to this policy. The Personal Information that we collect is used for providing and improving the Service. We will not use or share your information with anyone except as described in this Privacy Policy.",
+      "p4": "The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, which are accessible at Edunav unless otherwise defined in this Privacy Policy."
+    },
+    "collection": {
+      "title": "Information Collection and Use",
+      "p1": "For a better experience, while using our Service, we may require you to provide us with certain personally identifiable information, including but not limited to Name, Email. The information that we request will be retained by us and used as described in this privacy policy.",
+      "p2": "The app does use third-party services that may collect information used to identify you.",
+      "link_title": "Link to the privacy policy of third-party service providers used by the app",
+      "service1": "Google Play Services",
+      "service2": "Google Analytics for Firebase"
+    },
+    "log_data": {
+      "title": "Log Data",
+      "p1": "We want to inform you that whenever you use our Service, in case of an error in the app we collect data and information (through third party products) on your phone called Log Data. This Log Data may include information such as your device Internet Protocol (\"IP\") address, device name, operating system version, the configuration of the app when utilizing our Service, the time and date of your use of the Service, and other statistics."
+    },
+    "cookies": {
+      "title": "Cookies",
+      "p1": "Cookies are files with a small amount of data that are commonly used as anonymous unique identifiers. These are sent to your browser from the websites that you visit and are stored on your device's internal memory.",
+      "p2": "This Service does not use these \"cookies\" explicitly. However, the app may use third party code and libraries that use \"cookies\" to collect information and improve their services. You have the option to either accept or refuse these cookies and know when a cookie is being sent to your device. If you choose to refuse our cookies, you may not be able to use some portions of this Service."
+    },
+    "service_providers": {
+      "title": "Service Providers",
+      "p1": "We may employ third-party companies and individuals due to the following reasons:",
+      "reason1": "To facilitate our Service;",
+      "reason2": "To provide the Service on our behalf;",
+      "reason3": "To perform Service-related services; or",
+      "reason4": "To assist us in analyzing how our Service is used.",
+      "p2": "We want to inform users of this Service that these third parties have access to their Personal Information. The reason is to perform the tasks assigned to them on our behalf. However, they are obligated not to disclose or use the information for any other purpose."
+    },
+    "security": {
+      "title": "Security",
+      "p1": "We value your trust in providing us your Personal Information, thus we are striving to use commercially acceptable means of protecting it. But remember that no method of transmission over the internet, or method of electronic storage is 100% secure and reliable, and we cannot guarantee its absolute security."
+    },
+    "links": {
+      "title": "Links to Other Sites",
+      "p1": "This Service may contain links to other sites. If you click on a third-party link, you will be directed to that site. Note that these external sites are not operated by us. Therefore, we strongly advise you to review the Privacy Policy of these websites. We have no control over and assume no responsibility for the content, privacy policies, or practices of any third-party sites or services."
+    },
+    "children": {
+      "title": "Children's Privacy",
+      "p1": "These Services do not address anyone under the age of 13. We do not knowingly collect personally identifiable information from children under 13 years of age. In the case we discover that a child under 13 has provided us with personal information, we immediately delete this from our servers. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact us so that we will be able to do the necessary actions."
+    },
+    "changes": {
+      "title": "Changes to This Privacy Policy",
+      "p1": "We may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. We will notify you of any changes by posting the new Privacy Policy on this page.",
+      "p2": "This updated policy is effective as of"
+    },
+    "contact": {
+      "title": "Contact Us",
+      "p1": "If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at"
+    }
+  },
+  "tos": {
+    "title": "Terms of Service",
+    "effective_date": "Updated",
+    "date": "1 January 2025",
+    "intro": {
+      "title": "Introduction",
+      "p1": "Welcome to Edunav. By using our Service, you agree to these Terms of Service. Please read them carefully."
+    },
+    "use": {
+      "title": "Use of Service",
+      "p1": "Edunav is provided as a Free app for school partners. You agree to use the Service only for lawful purposes and in accordance with these Terms."
+    },
+    "account": {
+      "title": "User Accounts",
+      "p1": "You are responsible for maintaining the confidentiality of your account credentials and for all activities that occur under your account."
+    },
+    "data": {
+      "title": "Data and Privacy",
+      "p1": "Your use of the Service is also governed by our Privacy Policy, which can be found at the Privacy Policy page."
+    },
+    "termination": {
+      "title": "Termination",
+      "p1": "We reserve the right to suspend or terminate your access to the Service at any time for any reason without notice."
+    },
+    "changes": {
+      "title": "Changes to Terms",
+      "p1": "We may update these Terms from time to time. Continued use of the Service after changes constitutes acceptance of the new Terms."
+    },
+    "contact": {
+      "title": "Contact Us",
+      "p1": "For any questions about these Terms, please contact us at"
+    }
+  },
+  "cookies": {
+    "title": "Cookies Policy",
+    "effective_date": "Updated",
+    "date": "1 January 2025",
+    "intro": {
+      "title": "What Are Cookies",
+      "p1": "Cookies are small text files that are placed on your device when you visit our Service. They help us provide you with a better experience."
+    },
+    "how_use": {
+      "title": "How We Use Cookies",
+      "p1": "We use cookies for the following purposes:",
+      "reason1": "To remember your preferences",
+      "reason2": "To analyze Service usage",
+      "reason3": "To improve Service performance"
+    },
+    "third_party": {
+      "title": "Third-Party Cookies",
+      "p1": "Our Service may use third-party services that use cookies, such as Google Analytics. You can manage your cookie preferences through your browser settings."
+    },
+    "manage": {
+      "title": "Managing Cookies",
+      "p1": "You can control and manage cookies in various ways. Please note that removing or blocking cookies may impact your user experience and some features may no longer function properly."
+    },
+    "contact": {
+      "title": "Contact Us",
+      "p1": "For any questions about our use of cookies, please contact us at"
+    }
+  }
+}

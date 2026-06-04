@@ -1,0 +1,62 @@
+# robots.txt untuk Edunav
+# Generated: 2026-06-04
+# Optimized for AI Search Indexing
+
+User-agent: *
+Allow: /
+Allow: /blog
+Allow: /features
+
+# Disallow admin areas
+Disallow: /admin/
+Disallow: /api/private/
+
+# Sitemap locations
+Sitemap: https://www.edunav.net/sitemap.xml
+
+# RSS feeds for AI crawlers
+# AI Search engines: Perplexity, ChatGPT, Bing AI, Google AI Overviews
+Allow: /rss
+
+# Crawl delay (optional)
+Crawl-delay: 1
+
+# Specific rules for common crawlers
+User-agent: Googlebot
+Allow: /
+Allow: /rss
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Googlebot-News
+Allow: /
+
+# Allow AI Search crawlers
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+# Block unwanted bots
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /

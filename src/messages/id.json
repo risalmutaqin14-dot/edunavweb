@@ -1,0 +1,544 @@
+{
+  "meta": {
+    "title": "Edunav | Sistem Informasi Sekolah & Manajemen Akademik Terpadu",
+    "desc": "Mengenal Edunav, partner transformasi digital sekolah terpercaya. Solusi sistem informasi manajemen sekolah (SIMS) aman & terintegrasi."
+  },
+  "navbar": {
+    "home": "Beranda",
+    "about": "Tentang",
+    "benefit": "Manfaat",
+    "features": "Fitur",
+    "partners": "Mitra",
+    "blog": "Blog",
+    "faq": "FAQ",
+    "contact": "Kontak",
+    "btn_demo": "Demo Gratis",
+    "btn_login": "Masuk"
+  },
+  "hero": {
+    "title": "Sistem Informasi Sekolah untuk Administrasi Pendidikan Modern",
+    "desc": "Kelola seluruh aspek administrasi sekolah secara efisien dengan sistem informasi pendidikan berbasis digital. EDUNAV menghadirkan fitur terlengkap untuk pendaftaran siswa, manajemen pembelajaran, penilaian akademik, kontrol orang tua dan keuangan sekolah, semua dalam satu platform yang mudah digunakan dan terintegrasi.",
+    "btn_demo": "Demo Gratis Sekarang",
+    "btn_zoom": "Jadwalkan Via Zoom"
+  },
+  "counter": {
+    "title1": "Sistem Informasi Sekolah Tercanggih dan Terlengkap yang Sesuai untuk Sekolah Anda",
+    "desc": "Edunav aktif digunakan oleh institusi pendidikan dengan berbagai model sekolah, kurikulum, dan kebutuhan operasional.",
+    "country": "Negara",
+    "school": "Sekolah",
+    "user": "Pengguna",
+    "years": "Tahun Dedikasi"
+  },
+  "whyChooseUs": {
+    "hook": "Mengapa Memilih Edunav?",
+    "title": "Satu Sistem Untuk Semua Kebutuhan",
+    "desc": "EDUNAV menghadirkan solusi sistem informasi pendidikan terintegrasi dengan fitur modern untuk administrasi sekolah, manajemen akademik, dan komunikasi orang tua.",
+    "card": {
+      "card1": "Teknologi Terintegrasi & Aman",
+      "card2": "Manajemen Akademik Menyeluruh",
+      "card3": "Ekosistem Akademik Komprehensif",
+      "card4": "Dukungan Layanan Prioritas",
+      "card5": "Keuangan Sekolah & Tagihan",
+      "card6": "Monitoring & Pelaporan Institusi"
+    },
+    "desc2": "Pendekatan terpadu ini meningkatkan efisiensi, transparansi, dan konsistensi data."
+  },
+  "benefit": {
+    "title": "Apa saja manfaat EDUNAV?",
+    "desc": "EDUNAV membantu sekolah mengelola informasi secara real-time dan efisien. Dengan fitur modern dan tampilan interaktif, aplikasi ini mendukung produktivitas dan transparansi dalam administrasi pendidikan.",
+    "btn_brosur": "Download Brosur",
+    "point": {
+      "point1": "Sistem Pendaftaran Siswa",
+      "point2": "Sistem Manajemen Pembelajaran",
+      "point3": "Penilaian Guru & Siswa",
+      "point4": "Sistem Administrasi",
+      "point5": "Modul Keuangan"
+    }
+  },
+  "edunavCommunication": {
+    "hook": "Edunav Chat",
+    "title": "Sistem Komunikasi Wali Murid",
+    "summary": "Komunikasi real-time antara orang tua, guru, dan staf dalam satu platform terintegrasi.",
+    "points": {
+      "1": "Kirim teks, gambar, dan dokumen seperti aplikasi chat modern",
+      "2": "Riwayat percakapan tersimpan rapi untuk referensi dan tindak lanjut",
+      "3": "Pola komunikasi dapat disesuaikan sesuai kebijakan sekolah"
+    }
+  },
+  "edunavExam": {
+    "hook": "Edunav Exam",
+    "title": "Sistem Ujian Online Canggih",
+    "summary": "Platform CBT aman dengan penilaian otomatis dan fitur anti-kecurangan terintegrasi.",
+    "points": {
+      "1": "Berbagai tipe soal dengan penilaian otomatis untuk koreksi cepat",
+      "2": "Fitur keamanan: cheating prevention, pemantauan kamera, SEB support",
+      "3": "Pin App pada mobile untuk mencegah kecurangan selama ujian"
+    }
+  },
+  "edunavAI": {
+    "hook": "Edunav AI",
+    "title": "AI Generate Lesson Plan",
+    "summary": "Teknologi AI terintegrasi untuk meningkatkan efisiensi dan kualitas proses akademik sekolah.",
+    "pointAI": {
+      "point1": "Pembuatan RPP otomatis",
+      "point2": "Asisten penjadwalan",
+      "point3": "Tes persiapan IELTS, TOEFL, dan IGCSE",
+      "point4": "Evaluasi matematika dengan analisis cepat & akurat"
+    }
+  },
+  "edunavPayment": {
+    "hook": "Keuangan Edunav",
+    "title": "Integrasi Payment Gateway",
+    "summary": "Pembayaran tagihan sekolah langsung dari aplikasi dengan berbagai metode pembayaran.",
+    "points": {
+      "1": "Support bank transfer, e-wallet, PayPal, dan kartu kredit",
+      "2": "Integrasi khusus dengan bank partner jika diperlukan",
+      "3": "Transaksi tercatat otomatis dengan monitoring real-time"
+    }
+  },
+  "Partners": {
+    "tag": "Mitra",
+    "title": "Wujudkan Pendidikan yang Lebih Baik",
+    "desc": "Jalin Kemitraan dengan Edunav untuk Meningkatkan Kualitas Pengelolaan Sekolah"
+  },
+  "testimonials": {
+    "title": "Apa Kata Mereka Tentang Edunav?",
+    "testi1": {
+      "name": "Redi Rahmat",
+      "title": "Guru Olahraga",
+      "company": "Kharisma Bangsa School",
+      "content": "Edunav membuat administrasi mengajar jauh lebih cepat dan rapi di Sekolah Kharisma Bangsa. Absensi, RPP, penilaian, dan raport yang dulu manual kini terintegrasi dan otomatis. Saya bisa memantau perkembangan siswa dengan mudah dan fokus pada proses belajar, bukan lagi pada pekerjaan administratif. Edunav benar-benar meningkatkan efisiensi kerja guru."
+    },
+    "testi2": {
+      "name": "Adib",
+      "title": "Guru Matematika & Konselor",
+      "company": "Fatih Bilingual School",
+      "content": "Edunav LMS sangat membantu proses belajar di dalam dan luar kelas. Guru dapat memberikan materi, evaluasi, dan memantau progres siswa dengan mudah, sementara orang tua dapat mengikuti perkembangan anak secara real time. Fitur administrasi wali kelas, bimbingan konseling, hingga sistem red card dan green card membuat pemantauan perilaku dan perkembangan siswa jauh lebih terstruktur. Edunav benar-benar mempermudah guru, siswa, dan orang tua dalam seluruh proses pembelajaran."
+    },
+    "testi3": {
+      "name": "Akbar Dermawan Sinaga",
+      "title": "Staf Akademik ",
+      "company": "Fatih Bilingual School",
+      "content": "Edunav menghadirkan sistem akademik yang lengkap dan terintegrasi di Fatih Bilingual School. Guru dapat membuat lesson plan, mengunggah materi, memberi tugas, dan menilai langsung di platform. Wali kelas mudah memantau perkembangan siswa melalui fitur guidance, career planning, hingga sistem green card dan red card. Absensi terhubung otomatis dengan fingerprint, dan orang tua dapat memonitor perkembangan anak kapan saja. Edunav mempermudah seluruh proses belajar dan manajemen sekolah."
+    }
+  },
+  "faq": {
+    "hook": "Tanya Jawab",
+    "title": "Pertanyaan yang Sering Diajukan",
+    "desc": "Temukan jawaban cepat mengenai fitur, keamanan, dan layanan Edunav di sini.",
+    "other": "Masih punya pertanyaan lain?",
+    "question1": {
+      "question": "Apa itu Edunav?",
+      "answer": "Edunav adalah sistem informasi manajemen sekolah terintegrasi yang membantu digitalisasi administrasi, akademik, hingga komunikasi antara sekolah dan orang tua dalam satu platform."
+    },
+    "question2": {
+      "question": "Berapa harga langganan Edunav?",
+      "answer": "Edunav menggunakan skema berlangganan tahunan/bulanan dengan biaya yang disesuaikan jumlah siswa dan kebutuhan fitur sekolah. Untuk mendapatkan penawaran harga yang paling akurat, sekolah dapat mengisi form “Coba Demo Gratis” dan tim Edunav akan memberikan proposal resmi sesuai profil institusi."
+    },
+    "question3": {
+      "question": "Apakah Edunav mendukung berbagai kurikulum (Merdeka, Cambridge, IB, dll.)?",
+      "answer": "Ya, Edunav mendukung Kurikulum Merdeka serta kurikulum internasional seperti Cambridge dan IB melalui fitur lesson plan dan manajemen akademik serta pembuatan layout rapor yang fleksibel. Sistem juga mendukung kebutuhan khusus seperti program Quranic, career planning, hingga persiapan IELTS, TOEFL, dan IGCSE dengan integrasi aplikasi lainnya."
+    },
+    "question4": {
+      "question": "Berapa lama proses implementasi Edunav di sekolah?",
+      "answer": "Lama implementasi tergantung pada jumlah siswa, kompleksitas data, dan modul yang diaktifkan, namun umumnya dimulai dari beberapa minggu hingga beberapa bulan. Tim Edunav akan mendampingi proses migrasi data, konfigurasi kurikulum, pelatihan guru, serta uji coba sebelum sistem digunakan penuh."
+    },
+    "question5": {
+      "question": "Apakah Edunav bisa diintegrasikan dengan fingerprint, WhatsApp, dan payment gateway?",
+      "answer": "Ya, Edunav mendukung integrasi dengan mesin fingerprint untuk presensi, layanan notifikasi WhatsApp pihak ketiga, serta berbagai payment gateway untuk pembayaran tagihan sekolah. Seluruh transaksi dan data integrasi tercatat otomatis di dalam sistem agar mudah dipantau oleh manajemen sekolah."
+    },
+    "question6": {
+      "question": "Seberapa aman data sekolah di Edunav?",
+      "answer": "Edunav menggunakan enkripsi tingkat enterprise dan sistem backup otomatis untuk melindungi data akademik dan keuangan sekolah. Hak akses juga diatur berbasis peran agar hanya pihak yang berwenang yang dapat melihat atau mengubah data tertentu."
+    },
+    "question7": {
+      "question": "Siapa saja yang bisa mengakses Edunav (guru, siswa, orang tua)?",
+      "answer": "Edunav menyediakan akses terpisah untuk guru, siswa, dan orang tua sehingga setiap pengguna hanya melihat fitur dan informasi yang relevan. Orang tua dapat memantau kehadiran, nilai, dan perkembangan anak secara real‑time melalui aplikasi atau portal yang disediakan."
+    }
+  },
+  "footer": {
+    "desc": "Sistem Informasi Sekolah Terpadu untuk Lembaga Pendidikan Modern",
+    "menu1": "Hubungi Kami",
+    "menu2": "Tersedia di",
+    "menu3": "Terdaftar di",
+    "copyright": "Copyright Ⓒ 2025, PT Global Zerone Digital. All Rights Reserved."
+  },
+  "features": {
+    "title_small": "Sistem Informasi Sekolah",
+    "title_main": "Rincian Fitur Edunav",
+    "categories": {
+      "managerial": {
+        "title": "Fitur Manajerial",
+        "summary": "Pusat kendali manajemen untuk yayasan dan institusi dengan monitoring terpadu.",
+        "items": {
+          "dashboard": {
+            "title": "Dashboard Yayasan",
+            "desc": "Untuk yayasan atau institusi yang memiliki banyak tenant, Edunav menyediakan HQ Dashboard sebagai pusat pemantauan seluruh sekolah dalam satu tampilan terintegrasi. Dashboard ini menyajikan data akademik, keuangan, kehadiran, dan operasional setiap kampus secara real-time. Informasi antar sekolah dapat dibandingkan dengan mudah untuk melihat tren, performa, dan area yang membutuhkan perhatian. Fitur ini dirancang untuk membantu manajemen pusat mengambil keputusan strategis berbasis data dengan cepat dan akurat."
+          },
+          "admission": {
+            "title": "Penerimaan Siswa Baru",
+            "desc": "Modul Admission mengelola seluruh proses penerimaan siswa baru, mulai dari pendaftaran, verifikasi data, hingga pelaporan. Setiap tahap tercatat secara digital untuk memastikan proses PPDB berjalan efisien, transparan, dan terdokumentasi dengan baik."
+          },
+          "appraisal": {
+            "title": "Modul Penilaian",
+            "desc": "Modul Appraisals menyediakan sistem penilaian kinerja guru dan staf yang terstruktur dan transparan. Sekolah dapat menggunakan rubrik standar Edunav atau menyesuaikan dengan kebijakan internal untuk memastikan evaluasi dilakukan secara objektif dan konsisten."
+          },
+          "student_survey": {
+            "title": "Survey Siswa",
+            "desc": "Fitur Survey Siswa memungkinkan sekolah mengumpulkan masukan siswa terkait pengalaman belajar, kenyamanan sekolah, dan kualitas pembelajaran. Data yang terkumpul membantu manajemen melakukan evaluasi dan peningkatan layanan."
+          },
+          "parent_survey": {
+            "title": "Survey Wali Murid",
+            "desc": "Survey Wali Murid menyediakan cara terstruktur bagi sekolah untuk mengumpulkan masukan dari orang tua terkait layanan akademik maupun non-akademik. Setiap survei dapat disesuaikan dengan preferensi dan kebutuhan sekolah untuk memastikan relevansi data yang dikumpulkan. Hasil survei memberikan insight yang berharga untuk memperkuat komunikasi, meningkatkan kualitas layanan, dan mendorong kepuasan orang tua secara keseluruhan."
+          },
+          "finance": {
+            "title": "Keuangan Sekolah",
+            "desc": "Modul Finance menyediakan manajemen keuangan sekolah mulai dari transaksi, anggaran, pelaporan, hingga sistem payment digital dengan multi bank channel. Seluruh data keuangan tercatat dengan akurat dan dapat diakses dalam bentuk laporan yang siap digunakan untuk audit dan evaluasi."
+          }
+        }
+      },
+      "operational": {
+        "title": "Fitur Operasional",
+        "summary": "Kelola jadwal, kelas, dan operasional sekolah dengan sistem terintegrasi.",
+        "items": {
+          "calendar": {
+            "title": "Kalender Akademik",
+            "desc": "Academic Calendars memungkinkan sekolah menetapkan kalender akademik resmi, termasuk hari belajar, ujian, dan libur sekolah. Seluruh jadwal tersinkron otomatis ke modul lain sehingga guru, siswa, dan orang tua selalu memperoleh informasi yang akurat."
+          },
+          "class_mgmt": {
+            "title": "Manajemen Kelas",
+            "desc": "Fitur ini digunakan untuk membuat dan mengelola struktur kelas setiap tahun ajaran. Setiap kelas terhubung secara langsung dengan data siswa, wali kelas, mata pelajaran, dan jadwal, sehingga menjadi fondasi utama dalam pengelolaan akademik di Edunav. Sistem ini memastikan informasi kelas tersusun rapi, terintegrasi, dan siap digunakan untuk seluruh proses akademik sekolah."
+          },
+          "lesson_mgmt": {
+            "title": "Manajemen Pelajaran",
+            "desc": "Sekolah dapat mendefinisikan daftar mata pelajaran dan struktur pembelajarannya. Lesson yang dibuat akan menjadi acuan bagi guru dalam pengajaran, penilaian, dan penyusunan laporan semester."
+          },
+          "course_mgmt": {
+            "title": "Manajemen Mata Pelajaran",
+            "desc": "Courses dibuat untuk menghubungkan mata pelajaran dengan guru, kelas, siswa dan jadwal. Melalui fitur ini, seluruh aktivitas belajar seperti penilaian, absensi, dan lesson plan terintegrasi dalam satu ruang kerja digital."
+          },
+          "schedule": {
+            "title": "Jadwal Pelajaran",
+            "desc": "Modul Schedule menyediakan pengaturan jadwal belajar yang fleksibel dengan deteksi bentrok antar jadwal. Jadwal yang dibuat akan ditampilkan ke seluruh pengguna dan tersinkron langsung dengan modul Attendance dan Course."
+          },
+          "extra_curricular": {
+            "title": "Manajemen Kokurikuler & Ekstrakurikuler",
+            "desc": "Fitur ini digunakan untuk membuat dan mengelola kegiatan ekstrakurikuler atau klub siswa. Setiap klub memiliki jadwal, PIC, serta sistem penilaian yang dapat ditampilkan dalam rapor."
+          },
+          "project_mgmt": {
+            "title": "Manajemen Projek",
+            "desc": "Sekolah dapat membuat proyek akademik atau kokurikuler yang melibatkan banyak siswa dan guru. Setiap proyek memiliki indikator penilaian tersendiri dan dapat dimonitor secara terstruktur sepanjang semester."
+          },
+          "wa_notif": {
+            "title": "Notifikasi WA (3rd party)",
+            "desc": "Fitur ini memungkinkan sekolah mengirim pesan otomatis melalui WhatsApp dengan integrasi penyedia API pihak ketiga. Notifikasi dikirim untuk informasi penting seperti absensi, PPDB, keuangan, dan medical treatment."
+          }
+        }
+      },
+      "academic": {
+        "title": "Fitur Akademik",
+        "summary": "Kelola pembelajaran, penilaian, dan rapor dalam ekosistem digital.",
+        "items": {
+          "lesson_plan": {
+            "title": "Manajemen RPP",
+            "desc": "Fitur Lesson Plan membantu guru menyusun rencana pembelajaran secara terstruktur dan terhubung langsung dengan LMS mengajar. Dokumen dapat ditinjau oleh manajemen, dan alur persetujuannya dapat disesuaikan dengan kebijakan sekolah untuk memastikan kualitas perencanaan pembelajaran."
+          },
+          "lms": {
+            "title": "LMS",
+            "desc": "LMS menyediakan ruang digital untuk materi ajar, tugas, pengumpulan pekerjaan siswa, serta komunikasi kelas. Seluruh aktivitas pembelajaran terdokumentasi dan dapat dipantau oleh guru, manajemen, dan wali murid."
+          },
+          "syllabus": {
+            "title": "Silabus/Materi",
+            "desc": "Modul Syllabus memungkinkan sekolah menetapkan kurikulum, capaian pembelajaran, dan struktur materi setiap mata pelajaran. Guru menggunakan syllabus sebagai acuan dalam aktivitas di kelas."
+          },
+          "attendance": {
+            "title": "Presensi & Absensi",
+            "desc": "Fitur Attendance mencatat kehadiran siswa secara harian maupun per sesi pembelajaran. Data absensi terintegrasi dengan jadwal, modul rapor, serta notifikasi WhatsApp untuk ketidakhadiran tanpa keterangan."
+          },
+          "journal": {
+            "title": "Jurnal dan Refleksi",
+            "desc": "Journals berfungsi sebagai catatan aktivitas pembelajaran harian guru terkait aktivitas kelas, progres siswa, dan agenda mengajar. Catatan ini mendukung evaluasi akademik dan pelaporan internal sekolah."
+          },
+          "gradebook": {
+            "title": "Buku Nilai",
+            "desc": "Gradebook memungkinkan guru mengelola nilai siswa untuk berbagai jenis penilaian. Sistem mendukung perhitungan otomatis, pengaturan bobot nilai, serta pembuatan rapor."
+          },
+          "report": {
+            "title": "Rapor Sekolah",
+            "desc": "Modul Reporting mengelola seluruh proses pembuatan rapor mulai dari input nilai, komentar, absensi, hingga pencetakan. Template dan tampilan rapor dapat disesuaikan dan dikonfigurasi sesuai standar sekolah atau kurikulum tertentu."
+          }
+        }
+      },
+      "student": {
+        "title": "Fitur Siswa",
+        "summary": "Pantau perkembangan siswa dari kehadiran hingga prestasi akademik.",
+        "items": {
+          "entry": {
+            "title": "Student Entry",
+            "desc": "Fitur Student Entry memungkinkan sekolah memonitor aktivitas siswa saat memasuki atau meninggalkan area sekolah. Seluruh data kehadiran tercatat otomatis dalam sistem untuk mendukung keamanan dan monitoring harian. Fitur ini dapat terhubung dengan perangkat presensi sekolah, termasuk fingerprint, face recognition, dan RFID scanner."
+          },
+          "clubs": {
+            "title": "Klub & Ekstrakurikuler",
+            "desc": "Modul Clubs memungkinkan siswa melihat kegiatan ekstrakurikuler yang mereka ikuti, termasuk jadwal, nilai, dan komentar dari PIC. Informasi ini juga terhubung ke laporan perkembangan siswa."
+          },
+          "house": {
+            "title": "Sistem (House)",
+            "desc": "Fitur Housing digunakan untuk mengelola sistem house, yaitu pembagian siswa ke dalam kelompok untuk membangun rasa kebersamaan dan kompetisi. Setiap siswa ditempatkan pada satu house selama masa sekolahnya. Setiap house memiliki identitas sendiri, seperti nama tokoh, hewan, atau warna. Melalui fitur ini, sekolah dapat mencatat anggota house, aktivitas, dan perolehan poin dari berbagai lomba. Sistem ini membantu menumbuhkan semangat, karakter siswa, dan kerja sama antar anggota."
+          },
+          "permissions": {
+            "title": "Perizinan Siswa",
+            "desc": "Modul Permissions membantu mengelola permohonan izin siswa, seperti pulang awal, cuti, atau kegiatan khusus. Proses persetujuan dilakukan secara digital dan terdokumentasi dengan jelas."
+          },
+          "discipline": {
+            "title": "Poin Kedisiplinan",
+            "desc": "Fitur Discipline mencatat pelanggaran atau penghargaan disiplin siswa melalui sistem poin atau kartu. Data disiplin digunakan untuk pemantauan perkembangan karakter dan dapat ditampilkan pada rapor jika diperlukan."
+          },
+          "career": {
+            "title": "Pemetaan Karir Siswa",
+            "desc": "Modul Career Planning membantu siswa merencanakan tujuan akademik dan karier, seperti target universitas, portofolio, dan catatan konsultasi. Fitur ini mendukung pembimbingan yang lebih terarah oleh guru BK atau konselor sekolah."
+          },
+          "quranic": {
+            "title": "Program Sekolah Islam (Tahfidz)",
+            "desc": "Fitur Quranic Program membantu sekolah mengelola perkembangan pembelajaran Al-Qur’an di sekolah, termasuk hafalan, bacaan, dan kehadiran. Sistem mendukung program Tahfidz, Tahsin, dan Khatam, yang dapat disesuaikan dengan program sekolah. Seluruh progres siswa tercatat secara terstruktur dan dapat ditampilkan dalam laporan belajar."
+          }
+        }
+      },
+      "teacher": {
+        "title": "Fitur Guru & Wali Kelas",
+        "summary": "Dukung produktivitas guru dengan tools penilaian dan administrasi.",
+        "items": {
+          "portfolio": {
+            "title": "Portfolio Guru",
+            "desc": "Modul Portfolios menyimpan riwayat profesional guru, termasuk sertifikat, pengalaman mengajar, dan dokumen pendukung lainnya. Fitur ini membantu sekolah memantau perkembangan kompetensi dan kebutuhan pengembangan guru."
+          },
+          "workload": {
+            "title": "Beban Mengajar Guru",
+            "desc": "Fitur Teaching Loads menampilkan distribusi jam mengajar setiap guru berdasarkan jadwal dan mata pelajaran. Data ini memudahkan manajemen melakukan evaluasi beban kerja dan perencanaan akademik."
+          },
+          "appraisal": {
+            "title": "Penilaian Guru",
+            "desc": "Modul Teacher Appraisals menyediakan sistem penilaian kinerja guru secara terstruktur. Sekolah dapat menggunakan rubrik standar Edunav atau kustom untuk memastikan evaluasi dilakukan dengan objektif dan konsisten."
+          },
+          "substitute": {
+            "title": "Guru Infal",
+            "desc": "Fitur Substitute Teacher memudahkan penugasan guru pengganti ketika guru utama berhalangan hadir. Sistem menampilkan ketersediaan guru dan memperbarui jadwal kelas secara otomatis."
+          },
+          "eform": {
+            "title": "Disposisi Administratif (E-form)",
+            "desc": "Modul E-Form menyediakan sistem pengajuan digital dengan alur persetujuan yang dapat disesuaikan sesuai kebijakan sekolah. Fitur ini mendukung berbagai jenis permohonan, seperti purchase request, izin cuti staf, penggunaan fasilitas, pengajuan khusus, medical credit, dan overtime request. Semua proses tercatat secara terstruktur dan dapat dikonfigurasi sesuai kebutuhan sekolah."
+          },
+          "overtime": {
+            "title": "Informasi Lembur (E-Form)",
+            "desc": "Fitur ini memungkinkan guru mengajukan permintaan lembur secara formal melalui E-Form. Semua permintaan dicatat, diproses sesuai alur persetujuan, dan terdokumentasi dengan baik untuk keperluan HR dan payroll."
+          }
+        }
+      },
+      "extra": {
+        "title": "Fitur Ekstra",
+        "summary": "Komunikasi, CBT, dan fasilitas pendukung ekosistem sekolah.",
+        "items": {
+          "chat": {
+            "title": "Edunav Chat",
+            "desc": "Edunav Chat memungkinkan seluruh warga sekolah berkomunikasi langsung di dalam sistem. Secara default, staf dapat berkomunikasi dengan sesama staf, siswa dapat menghubungi guru mata pelajaran dan wali kelas, serta orang tua dapat berinteraksi dengan wali kelas. Pola komunikasi ini dapat disesuaikan sesuai kebijakan dan preferensi sekolah."
+          },
+          "stories": {
+            "title": "Edunav Stories (Media Sosial)",
+            "desc": "Edunav Stories berfungsi sebagai media sosial internal sekolah, mirip dengan Instagram namun bersifat privat dan hanya untuk komunitas sekolah. Guru, wali kelas, atau tim PR dapat memposting konten, sementara orang tua dan siswa dapat memberikan reaksi atau komentar untuk meningkatkan engagement."
+          },
+          "news": {
+            "title": "Berita Sekolah",
+            "desc": "Fitur berita digunakan untuk mempublikasikan artikel atau informasi resmi sekolah. Setiap posting dapat ditargetkan ke kelompok tertentu seperti orang tua, staf, atau siswa sehingga penyampaian informasi menjadi lebih relevan dan terarah."
+          },
+          "announcement": {
+            "title": "Pengumuman Sekolah",
+            "desc": "Announcement digunakan untuk menyampaikan pengumuman penting yang akan muncul dalam bentuk notifikasi dan pop-up saat pengguna login. Fitur ini memastikan pesan yang bersifat krusial dapat diterima semua pengguna tepat waktu."
+          },
+          "broadcast": {
+            "title": "Broadcast Informasi",
+            "desc": "Broadcast memungkinkan sekolah mengirimkan informasi massal, baik pengumuman umum maupun pemberitahuan terkait keuangan. Pesan dapat dikirim melalui berbagai channel seperti notifikasi aplikasi, email, atau WhatsApp, sehingga komunikasi dapat menjangkau seluruh komunitas sekolah dengan cepat dan efektif."
+          },
+          "cbt": {
+            "title": "Aplikasi CBT",
+            "desc": "Exam Platform menyediakan sistem ujian digital yang aman dan terintegrasi dengan data akademik sekolah. Fitur keamanan mencakup cheating prevention, pemantauan kamera, dan dukungan SEB (Safe Exam Browser). Sistem mendukung berbagai tipe soal dengan penilaian otomatis, sehingga memudahkan guru membuat, memonitor, dan menilai."
+          },
+          "facilities": {
+            "title": "Sarana & Prasarana Sekolah",
+            "desc": "Modul Facilities membantu sekolah mengelola fasilitas seperti ruang kelas, auditorium, dan peralatan sekolah. Pengajuan dan persetujuan penggunaan fasilitas dilakukan secara digital untuk memastikan ketersediaan dan pemakaian yang teratur."
+          },
+          "inventory": {
+            "title": "Manajemen Inventaris Sekolah",
+            "desc": "Fitur Inventory digunakan untuk mencatat, melacak, dan mengelola aset sekolah, termasuk barang habis pakai dan peralatan pendidikan. Sistem memastikan transparansi, kontrol stok, dan efisiensi dalam proses pengadaan maupun distribusi."
+          },
+          "library": {
+            "title": "Perpustakaan Sekolah",
+            "desc": "Modul Library mengatur seluruh aktivitas perpustakaan, mulai dari peminjaman, pengembalian, katalog buku, hingga statistik kunjungan. Fitur ini mendukung pengelolaan perpustakaan yang modern dan mudah diakses oleh siswa serta guru."
+          },
+          "clinic": {
+            "title": "Klinik Sekolah",
+            "desc": "Fitur Health/Clinic mencatat informasi kesehatan siswa, termasuk pemeriksaan, pengobatan, dan catatan medis harian. Data kesehatan terpusat ini membantu sekolah memantau kesejahteraan siswa dan memastikan komunikasi cepat dengan orang tua ketika diperlukan."
+          }
+        }
+      }
+    }
+  },
+  "contact": {
+    "title": "Ajukan Demo Sistem Informasi Sekolah Edunav",
+    "desc": "Diskusikan dengan tim kami bagaimana Edunav dapat mendukung kebutuhan operasional dan strategi digital jangka panjang sekolah Anda."
+  },
+  "blog": {
+    "tag": "Artikel",
+    "title": "Berita & Artikel",
+    "sub-title": "Update, tips, dan studi kasus tentang penggunaan Edunav di sekolah.",
+    "read_more": "Baca Selengkapnya",
+    "prev": "Sebelumnya",
+    "next": "Selanjutnya",
+    "not_found": "Artikel tidak ditemukan.",
+    "back_to_blog": "Kembali ke Beranda"
+  },
+  "blogpost": {
+    "breadcrumb_home": "Beranda",
+    "breadcrumb_blog": "Blog",
+    "share_article": "Bagikan Artikel",
+    "share_x": "Tweet",
+    "share_whatsapp": "WhatsApp",
+    "copy_link": "Salin Link",
+    "copied": "Link Tersalin!",
+    "reading_time": "{{minutes}} menit baca",
+    "insight_label": "Insight Edunav",
+    "tags": "Tags",
+    "cta_eyebrow": "Edunav",
+    "cta_button": "Hubungi Kami",
+    "related": "Artikel Terkait",
+    "related_title": "Artikel terkait yang mungkin Anda sukai",
+    "view_all": "Lihat semua",
+    "read_more": "Baca selengkapnya",
+    "not_found": "Artikel tidak ditemukan",
+    "not_found_desc": "Halaman yang kamu cari belum tersedia atau slug artikelnya berubah.",
+    "back_to_blog": "Kembali ke Blog",
+    "cta_title": "Bangun pengalaman sekolah digital yang lebih modern.",
+    "cta_desc": "Lihat bagaimana Edunav membantu operasional, komunikasi, dan pembelajaran jadi lebih terintegrasi."
+  },
+  "legal": {
+    "back_home": "Kembali ke Beranda"
+  },
+  "privacy": {
+    "title": "Kebijakan Privasi",
+    "effective_date": "Diperbarui",
+    "date": "1 Januari 2025",
+    "intro": {
+      "title": "Pengantar",
+      "p1": "Global Zerone Digital & Edukasi Universal Indonesia (Eduversal) membangun aplikasi Edunav sebagai aplikasi Gratis. Layanan ini disediakan oleh Global Zerone Digital tanpa biaya dan dimaksudkan untuk digunakan apa adanya, terutama untuk mitra sekolah.",
+      "p2": "Halaman ini digunakan untuk menginformasikan pengunjung mengenai kebijakan kami tentang pengumpulan, penggunaan, dan pengungkapan Informasi Pribadi jika ada yang memutuskan untuk menggunakan Layanan kami.",
+      "p3": "Jika Anda memilih untuk menggunakan Layanan kami, maka Anda menyetujui pengumpulan dan penggunaan informasi sehubungan dengan kebijakan ini. Informasi Pribadi yang kami kumpulkan digunakan untuk menyediakan dan meningkatkan Layanan. Kami tidak akan menggunakan atau membagikan informasi Anda dengan siapa pun kecuali seperti dijelaskan dalam Kebijakan Privasi ini.",
+      "p4": "Istilah yang digunakan dalam Kebijakan Privasi ini memiliki arti yang sama dengan Syarat dan Ketentuan, yang dapat diakses di Edunav kecuali didefinisikan lain dalam Kebijakan Privasi ini."
+    },
+    "collection": {
+      "title": "Pengumpulan dan Penggunaan Informasi",
+      "p1": "Untuk pengalaman yang lebih baik, saat menggunakan Layanan kami, kami mungkin meminta Anda untuk memberikan kami informasi yang dapat diidentifikasi secara pribadi, termasuk namun tidak terbatas pada Nama, Email. Informasi yang kami minta akan disimpan oleh kami dan digunakan seperti dijelaskan dalam kebijakan privasi ini.",
+      "p2": "Aplikasi ini menggunakan layanan pihak ketiga yang dapat mengumpulkan informasi yang digunakan untuk mengidentifikasi Anda.",
+      "link_title": "Tautan ke kebijakan privasi penyedia layanan pihak ketiga yang digunakan oleh aplikasi",
+      "service1": "Google Play Services",
+      "service2": "Google Analytics untuk Firebase"
+    },
+    "log_data": {
+      "title": "Data Log",
+      "p1": "Kami ingin menginformasikan kepada Anda bahwa setiap kali Anda menggunakan Layanan kami, jika terjadi kesalahan dalam aplikasi, kami mengumpulkan data dan informasi (melalui produk pihak ketiga) di ponsel Anda yang disebut Data Log. Data Log ini dapat mencakup informasi seperti alamat Protokol Internet (\"IP\") perangkat Anda, nama perangkat, versi sistem operasi, konfigurasi aplikasi saat menggunakan Layanan kami, waktu dan tanggal penggunaan Layanan Anda, dan statistik lainnya."
+    },
+    "cookies": {
+      "title": "Cookies",
+      "p1": "Cookies adalah file dengan sejumlah kecil data yang umumnya digunakan sebagai pengenal unik anonim. Ini dikirim ke browser Anda dari situs web yang Anda kunjungi dan disimpan di memori internal perangkat Anda.",
+      "p2": "Layanan ini tidak menggunakan \"cookies\" secara eksplisit. Namun, aplikasi ini dapat menggunakan kode dan pustaka pihak ketiga yang menggunakan \"cookies\" untuk mengumpulkan informasi dan meningkatkan layanan mereka. Anda memiliki opsi untuk menerima atau menolak cookies ini dan mengetahui kapan cookie dikirim ke perangkat Anda. Jika Anda memilih untuk menolak cookies kami, Anda mungkin tidak dapat menggunakan beberapa bagian Layanan ini."
+    },
+    "service_providers": {
+      "title": "Penyedia Layanan",
+      "p1": "Kami dapat menggunakan perusahaan dan individu pihak ketiga karena alasan berikut:",
+      "reason1": "Untuk memfasilitasi Layanan kami;",
+      "reason2": "Untuk menyediakan Layanan atas nama kami;",
+      "reason3": "Untuk melakukan layanan terkait Layanan; atau",
+      "reason4": "Untuk membantu kami menganalisis bagaimana Layanan kami digunakan.",
+      "p2": "Kami ingin menginformasikan kepada pengguna Layanan ini bahwa pihak ketiga memiliki akses ke Informasi Pribadi Anda. Alasannya adalah untuk melakukan tugas yang ditugaskan kepada mereka atas nama kami. Namun, mereka berkewajiban untuk tidak mengungkapkan atau menggunakan informasi untuk tujuan lain."
+    },
+    "security": {
+      "title": "Keamanan",
+      "p1": "Kami menghargai kepercayaan Anda dalam memberikan Informasi Pribadi kepada kami, sehingga kami berusaha menggunakan cara yang dapat diterima secara komersial untuk melindunginya. Namun, ingatlah bahwa tidak ada metode transmisi melalui internet, atau metode penyimpanan elektronik yang 100% aman dan andal, dan kami tidak dapat menjamin keamanan mutlaknya."
+    },
+    "links": {
+      "title": "Tautan ke Situs Lain",
+      "p1": "Layanan ini mungkin berisi tautan ke situs lain. Jika Anda mengklik tautan pihak ketiga, Anda akan diarahkan ke situs tersebut. Perhatikan bahwa situs eksternal ini tidak dioperasikan oleh kami. Oleh karena itu, kami sangat menyarankan Anda untuk meninjau Kebijakan Privasi dari situs web ini. Kami tidak memiliki kontrol atas dan tidak bertanggung jawab atas konten, kebijakan privasi, atau praktik situs atau layanan pihak ketiga mana pun."
+    },
+    "children": {
+      "title": "Privasi Anak-Anak",
+      "p1": "Layanan ini tidak ditujukan kepada siapa pun di bawah usia 13 tahun. Kami tidak sengaja mengumpulkan informasi yang dapat diidentifikasi secara pribadi dari anak di bawah 13 tahun. Jika kami menemukan bahwa anak di bawah 13 tahun telah memberikan kami informasi pribadi, kami segera menghapusnya dari server kami. Jika Anda adalah orang tua atau wali dan Anda mengetahui bahwa anak Anda telah memberikan kami informasi pribadi, silakan hubungi kami agar kami dapat melakukan tindakan yang diperlukan."
+    },
+    "changes": {
+      "title": "Perubahan Kebijakan Privasi Ini",
+      "p1": "Kami mungkin memperbarui Kebijakan Privasi kami dari waktu ke waktu. Oleh karena itu, disarankan untuk meninjau halaman ini secara berkala untuk setiap perubahan. Kami akan memberi tahu Anda tentang perubahan apa pun dengan memposting Kebijakan Privasi baru di halaman ini.",
+      "p2": "Kebijakan yang diperbarui ini berlaku sejak"
+    },
+    "contact": {
+      "title": "Hubungi Kami",
+      "p1": "Jika Anda memiliki pertanyaan atau saran tentang Kebijakan Privasi kami, jangan ragu untuk menghubungi kami di"
+    }
+  },
+  "tos": {
+    "title": "Syarat dan Ketentuan",
+    "effective_date": "Diperbarui",
+    "date": "1 Januari 2025",
+    "intro": {
+      "title": "Pengantar",
+      "p1": "Selamat datang di Edunav. Dengan menggunakan Layanan kami, Anda menyetujui Syarat dan Ketentuan ini. Harap baca dengan seksama."
+    },
+    "use": {
+      "title": "Penggunaan Layanan",
+      "p1": "Edunav disediakan sebagai aplikasi Gratis untuk mitra sekolah. Anda menyetujui untuk menggunakan Layanan hanya untuk tujuan yang sah dan sesuai dengan Syarat ini."
+    },
+    "account": {
+      "title": "Akun Pengguna",
+      "p1": "Anda bertanggung jawab untuk menjaga kerahasiaan kredensial akun Anda dan untuk semua aktivitas yang terjadi di bawah akun Anda."
+    },
+    "data": {
+      "title": "Data dan Privasi",
+      "p1": "Penggunaan Layanan Anda juga diatur oleh Kebijakan Privasi kami, yang dapat ditemukan di halaman Kebijakan Privasi."
+    },
+    "termination": {
+      "title": "Penghentian",
+      "p1": "Kami berhak untuk menangguhkan atau menghentikan akses Anda ke Layanan kapan saja dengan alasan apa pun tanpa pemberitahuan."
+    },
+    "changes": {
+      "title": "Perubahan Syarat",
+      "p1": "Kami mungkin memperbarui Syarat ini dari waktu ke waktu. Penggunaan Layanan yang berlanjut setelah perubahan merupakan penerimaan Syarat baru."
+    },
+    "contact": {
+      "title": "Hubungi Kami",
+      "p1": "Untuk pertanyaan apa pun tentang Syarat ini, silakan hubungi kami di"
+    }
+  },
+  "cookies": {
+    "title": "Kebijakan Cookies",
+    "effective_date": "Diperbarui",
+    "date": "1 Januari 2025",
+    "intro": {
+      "title": "Apa itu Cookies",
+      "p1": "Cookies adalah file teks kecil yang ditempatkan di perangkat Anda saat Anda mengunjungi Layanan kami. Mereka membantu kami memberikan pengalaman yang lebih baik."
+    },
+    "how_use": {
+      "title": "Bagaimana Kami Menggunakan Cookies",
+      "p1": "Kami menggunakan cookies untuk tujuan berikut:",
+      "reason1": "Untuk mengingat preferensi Anda",
+      "reason2": "Untuk menganalisis penggunaan Layanan",
+      "reason3": "Untuk meningkatkan kinerja Layanan"
+    },
+    "third_party": {
+      "title": "Cookies Pihak Ketiga",
+      "p1": "Layanan kami mungkin menggunakan layanan pihak ketiga yang menggunakan cookies, seperti Google Analytics. Anda dapat mengelola preferensi cookie melalui pengaturan browser Anda."
+    },
+    "manage": {
+      "title": "Mengelola Cookies",
+      "p1": "Anda dapat mengontrol dan mengelola cookies dengan berbagai cara. Harap dicatat bahwa menghapus atau memblokir cookies dapat memengaruhi pengalaman pengguna Anda dan beberapa fitur mungkin tidak berfungsi dengan baik."
+    },
+    "contact": {
+      "title": "Hubungi Kami",
+      "p1": "Untuk pertanyaan apa pun tentang penggunaan cookies kami, silakan hubungi kami di"
+    }
+  }
+}
