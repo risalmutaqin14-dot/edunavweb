@@ -34,6 +34,7 @@ export interface BlogPostViewModel {
   excerpt: string;
   date: string;
   isoDate: string;
+  modifiedDate: string;
   image: string;
   author: string;
   authorAvatar?: string;

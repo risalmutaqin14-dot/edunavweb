@@ -21,16 +21,18 @@ interface StructuredTableProps {
 /**
  * Table Schema untuk JSON-LD
  */
-function generateTableSchema(tableName: string, data: StructuredTableProps["data"]) {
+function generateTableSchema(tableName: string, data: StructuredTableProps["data"], description?: string) {
   return {
     "@context": "https://schema.org",
     "@type": "Table",
+    "@id": `https://www.edunav.net/#table-${tableName.toLowerCase().replace(/\s+/g, "-")}`,
     name: tableName,
-    description: `${tableName} untuk Edunav - Sistem Informasi Sekolah`,
+    description: description || `${tableName} untuk Edunav - Sistem Informasi Sekolah`,
     about: {
       "@type": "SoftwareApplication",
       name: "Edunav",
       applicationCategory: "EducationalApplication",
+      url: "https://www.edunav.net",
     },
   };
 }

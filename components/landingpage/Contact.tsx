@@ -1,12 +1,11 @@
 "use client";
 
-import React, { useEffect } from "react";
+import React from "react";
 import Image from "next/image";
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
 import { ArrowRight, Mail, MapPin, Phone, Video } from "lucide-react";
 import { footerLogos } from "../../data.js";
-import { generateContactSectionSchema } from "@/src/lib/schemas";
 
 export default function Contact() {
   const { t } = useTranslation();
@@ -16,27 +15,6 @@ export default function Contact() {
     whileTap: { scale: 0.98 },
     transition: { type: "spring" as const, stiffness: 400, damping: 15 },
   };
-
-  // Inject JSON-LD schema for contact section
-  useEffect(() => {
-    const schema = generateContactSectionSchema();
-
-    let script = document.getElementById("contact-schema") as HTMLScriptElement;
-    if (!script) {
-      script = document.createElement("script");
-      script.id = "contact-schema";
-      script.type = "application/ld+json";
-      document.head.appendChild(script);
-    }
-    script.textContent = JSON.stringify(schema);
-
-    return () => {
-      script = document.getElementById("contact-schema") as HTMLScriptElement;
-      if (script) {
-        script.remove();
-      }
-    };
-  }, []);
 
   return (
     <section id="contact" className="relative overflow-hidden bg-[#F8FAFC] py-16 md:py-20">

@@ -118,71 +118,46 @@ export async function generateMetadata(): Promise<Metadata> {
       "studi kasus edunav",
       "berita pendidikan indonesia",
     ],
+    authors: [{ name: "PT Global Zerone Digital" }],
+    creator: "Edunav",
+    publisher: "PT Global Zerone Digital",
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: {
+        index: true,
+        follow: true,
+        "max-video-preview": -1,
+        "max-image-preview": "large",
+        "max-snippet": -1,
+      },
+    },
     openGraph: {
       title: "Blog Edunav - Artikel & Berita Pendidikan",
       description: "Update terbaru seputar Edunav, sistem informasi manajemen sekolah, dan tips pendidikan.",
       url: `${SITE_URL}/blog`,
       siteName: "Edunav",
       type: "website",
+      locale: "id_ID",
       images: [
         {
           url: `${SITE_URL}/assets/edunav-banner.webp`,
           width: 1200,
           height: 630,
-          alt: "Blog Edunav",
+          alt: "Blog Edunav - Artikel & Berita Pendidikan",
         },
       ],
     },
+    twitter: {
+      card: "summary_large_image",
+      title: "Blog Edunav - Artikel & Berita Pendidikan",
+      description: "Update terbaru seputar Edunav, sistem informasi manajemen sekolah, dan tips pendidikan.",
+      images: [`${SITE_URL}/assets/edunav-banner.webp`],
+      creator: "@edunav_id",
+      site: "@edunav_id",
+    },
     alternates: {
       canonical: `${SITE_URL}/blog`,
-    },
-  };
-}
-
-// JSON-LD Schema for Blog Collection
-function generateBlogSchema(
-  posts: Array<{
-    id: number;
-    slug: string;
-    title: string;
-    excerpt: string;
-    date: string;
-    isoDate: string;
-    image: string;
-    author: string;
-    category: string;
-    categorySlug: string;
-  }>
-) {
-  const itemList = posts.map((post) => ({
-    "@type": "BlogPosting",
-    headline: post.title,
-    url: `${SITE_URL}/blog/${post.slug}`,
-    datePublished: post.isoDate,
-    author: {
-      "@type": "Person",
-      name: post.author,
-    },
-    image: post.image,
-  }));
-
-  return {
-    "@context": "https://schema.org",
-    "@type": "CollectionPage",
-    name: "Blog Edunav",
-    description: "Kumpulan artikel seputar Edunav dan pendidikan",
-    url: `${SITE_URL}/blog`,
-    mainEntity: {
-      "@type": "ItemList",
-      itemListElement: posts.map((post, index) => ({
-        "@type": "ListItem",
-        position: index + 1,
-        item: {
-          "@type": "BlogPosting",
-          headline: post.title,
-          url: `${SITE_URL}/blog/${post.slug}`,
-        },
-      })),
     },
   };
 }
@@ -195,13 +170,79 @@ export default async function BlogPage({
   const params = await searchParams;
   const currentPage = parseInt(params.page || "1");
   const { posts, totalPages, totalPosts } = await getPosts(currentPage);
-  const schema = generateBlogSchema(posts);
+
+  // CollectionPage Schema
+  const collectionPageSchema = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "@id": `${SITE_URL}/blog#collection`,
+    name: "Blog Edunav",
+    description: "Kumpulan artikel seputar Edunav dan pendidikan",
+    url: `${SITE_URL}/blog`,
+  };
+
+  // ItemList Schema
+  const itemListSchema = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: "Daftar Artikel Blog Edunav",
+    description: "Daftar lengkap artikel blog Edunav tentang sistem informasi sekolah",
+    itemListElement: posts.map((post, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      item: {
+        "@type": "BlogPosting",
+        headline: post.title,
+        url: `${SITE_URL}/blog/${post.slug}`,
+        datePublished: post.isoDate,
+        author: {
+          "@type": "Person",
+          name: post.author,
+        },
+        image: post.image,
+      },
+    })),
+  };
+
+  // Breadcrumb Schema
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Home",
+        item: SITE_URL,
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "Blog",
+        item: `${SITE_URL}/blog`,
+      },
+    ],
+  };
 
   return (
-    <>
+    <div>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(collectionPageSchema).replace(/</g, "\\u003c"),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(itemListSchema).replace(/</g, "\\u003c"),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(breadcrumbSchema).replace(/</g, "\\u003c"),
+        }}
       />
 
       <main className="min-h-screen bg-gradient-to-b from-[#F8FAFC] to-white py-16 md:py-24">
@@ -311,6 +352,6 @@ export default async function BlogPage({
           </div>
         </div>
       </main>
-    </>
+    </div>
   );
 }

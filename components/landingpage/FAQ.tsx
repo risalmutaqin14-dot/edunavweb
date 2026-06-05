@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useRef } from "react";
+import { useState, useRef } from "react";
 import { useTranslation } from "react-i18next";
 import { motion, AnimatePresence, useScroll, useTransform, MotionValue } from "framer-motion";
 import { ChevronDown, MessageSquareMore } from "lucide-react";
@@ -22,52 +22,6 @@ export default function FAQ() {
   const toggle = (index: number) => {
     setOpenIndex(openIndex === index ? null : index);
   };
-
-  // Inject JSON-LD FAQPage schema
-  useEffect(() => {
-    const questions = [
-      { key: "question1", question: t("faq.question1.question"), answer: t("faq.question1.answer") },
-      { key: "question2", question: t("faq.question2.question"), answer: t("faq.question2.answer") },
-      { key: "question3", question: t("faq.question3.question"), answer: t("faq.question3.answer") },
-      { key: "question4", question: t("faq.question4.question"), answer: t("faq.question4.answer") },
-      { key: "question5", question: t("faq.question5.question"), answer: t("faq.question5.answer") },
-      { key: "question6", question: t("faq.question6.question"), answer: t("faq.question6.answer") },
-      { key: "question7", question: t("faq.question7.question"), answer: t("faq.question7.answer") },
-    ];
-
-    const schema = {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "@id": "https://www.edunav.net/#faqpage",
-      url: "https://www.edunav.net/#faq",
-      name: "Edunav FAQ - Pertanyaan yang Sering Diajukan",
-      description: "Pertanyaan dan jawaban seputar sistem informasi sekolah Edunav",
-      mainEntity: questions.map((q) => ({
-        "@type": "Question",
-        name: q.question,
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: q.answer.replace(/<[^>]+>/g, ""),
-        },
-      })),
-    };
-
-    let script = document.getElementById("faq-schema") as HTMLScriptElement;
-    if (!script) {
-      script = document.createElement("script");
-      script.id = "faq-schema";
-      script.type = "application/ld+json";
-      document.head.appendChild(script);
-    }
-    script.textContent = JSON.stringify(schema);
-
-    return () => {
-      script = document.getElementById("faq-schema") as HTMLScriptElement;
-      if (script) {
-        script.remove();
-      }
-    };
-  }, [t]);
 
   const questions = [
     "question1",

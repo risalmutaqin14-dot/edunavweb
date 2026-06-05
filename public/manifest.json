@@ -1,0 +1,28 @@
+{
+  "name": "Edunav - Sistem Informasi Sekolah & LMS",
+  "short_name": "Edunav",
+  "description": "Edunav: Sistem informasi manajemen sekolah (SIMS) terintegrasi. Kelola administrasi akademik, keuangan, komunikasi, & pembelajaran dalam 1 platform.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1B91CB",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/assets/icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["education", "productivity"],
+  "shortcuts": [
+    {
+      "name": "Blog",
+      "short_name": "Blog",
+      "description": "Baca artikel terbaru seputar pendidikan",
+      "url": "/blog",
+      "icons": [{ "src": "/assets/icon.png", "sizes": "512x512" }]
+    }
+  ]
+}

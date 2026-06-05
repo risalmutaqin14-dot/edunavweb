@@ -1,12 +1,11 @@
 "use client";
 
-import React, { useEffect } from "react";
+import React from "react";
 import Image from "next/image";
 import { partnerLogos } from "../../data.js";
 import { useTranslation } from "react-i18next";
 import { motion, Variants } from "framer-motion";
 import { Award, CheckCircle2 } from "lucide-react";
-import { generatePartnersSectionSchema, type PartnerSchool } from "@/src/lib/schemas";
 
 export default function Partners() {
   const { t } = useTranslation();
@@ -35,33 +34,6 @@ export default function Partners() {
       transition: { type: "spring", stiffness: 80, damping: 15 },
     },
   };
-
-  // Inject JSON-LD schema for partners section
-  useEffect(() => {
-    const partners: PartnerSchool[] = partnerLogos.map((p) => ({
-      id: p.id,
-      name: p.name,
-      logo: p.image.startsWith("/assets/") ? `https://www.edunav.net${p.image}` : p.image,
-    }));
-
-    const schema = generatePartnersSectionSchema(partners);
-
-    let script = document.getElementById("partners-schema") as HTMLScriptElement;
-    if (!script) {
-      script = document.createElement("script");
-      script.id = "partners-schema";
-      script.type = "application/ld+json";
-      document.head.appendChild(script);
-    }
-    script.textContent = JSON.stringify(schema);
-
-    return () => {
-      script = document.getElementById("partners-schema") as HTMLScriptElement;
-      if (script) {
-        script.remove();
-      }
-    };
-  }, []);
 
   return (
     <section id="partners" className="py-14 md:py-18 bg-[#F8FAFC] relative overflow-hidden">

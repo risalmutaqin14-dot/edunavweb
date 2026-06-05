@@ -1,3 +1,4 @@
+import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
@@ -36,7 +37,7 @@ async function fetchPosts(query: string) {
     headers: {
       Accept: "application/json",
     },
-    cache: "no-store",
+    next: { revalidate: 3600 },
   });
 
   if (!response.ok) {
@@ -78,6 +79,7 @@ async function getBlogPostData(slug: string) {
       year: "numeric",
     }),
     isoDate: item.date,
+    modifiedDate: item.modified || item.date,
     image: featuredImg,
     author: authorName,
     authorAvatar,
@@ -119,7 +121,79 @@ async function getBlogPostData(slug: string) {
   return { post, relatedPosts };
 }
 
-export const dynamic = "force-dynamic";
+export async function generateMetadata(props: PageProps<"/blog/[slug]">): Promise<Metadata> {
+  const { slug } = await props.params;
+  const data = await getBlogPostData(slug);
+
+  if (!data) {
+    return {
+      title: "Artikel Tidak Ditemukan",
+      description: "Halaman yang kamu cari belum tersedia.",
+    };
+  }
+
+  const { post } = data;
+  const articleUrl = `${SITE_URL}/blog/${post.slug}`;
+  const cleanTitle = stripHtml(post.title);
+  const wordCount = post.plainTextContent.split(/\s+/).filter(Boolean).length;
+
+  return {
+    title: cleanTitle,
+    description: post.excerpt.slice(0, 160),
+    keywords: post.tags.length > 0 ? post.tags : ["artikel pendidikan", "edunav"],
+    authors: [{ name: post.author }],
+    creator: post.author,
+    publisher: "Edunav",
+    openGraph: {
+      title: cleanTitle,
+      description: post.excerpt.slice(0, 200),
+      url: articleUrl,
+      siteName: "Edunav",
+      type: "article",
+      publishedTime: post.isoDate,
+      modifiedTime: post.modifiedDate,
+      authors: [post.author],
+      tags: post.tags,
+      images: [
+        {
+          url: post.image,
+          width: 1200,
+          height: 630,
+          alt: cleanTitle,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: cleanTitle,
+      description: post.excerpt.slice(0, 200),
+      images: [post.image],
+      creator: "@edunav_id",
+      site: "@edunav_id",
+    },
+    alternates: {
+      canonical: articleUrl,
+    },
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: {
+        index: true,
+        follow: true,
+        "max-video-preview": -1,
+        "max-image-preview": "large",
+        "max-snippet": -1,
+      },
+    },
+    other: {
+      "article:wordCount": String(wordCount),
+      "article:readingTime": `${post.readingTimeMinutes} menit`,
+      "article:section": post.category,
+    },
+  };
+}
+
+export const revalidate = 3600;
 
 export default async function BlogPostPage(props: PageProps<"/blog/[slug]">) {
   const { slug } = await props.params;
@@ -129,12 +203,12 @@ export default async function BlogPostPage(props: PageProps<"/blog/[slug]">) {
     return (
       <div className="flex min-h-screen items-center justify-center bg-[#f5f7fb] px-5">
         <div className="max-w-md rounded-[2rem] border border-slate-200 bg-white px-8 py-10 text-center shadow-[0_24px_80px_rgba(15,23,42,0.08)]">
-          <h2 className="mb-3 text-2xl font-bold text-slate-900">Artikel tidak ditemukan</h2>
+          <h1 className="mb-3 text-2xl font-bold text-slate-900">Artikel tidak ditemukan</h1>
           <p className="mb-6 text-sm leading-7 text-slate-500">
             Halaman yang kamu cari belum tersedia atau slug artikelnya berubah.
           </p>
           <Link
-            href="/#blog"
+            href="/blog"
             className="inline-flex items-center gap-2 rounded-full bg-[#1B91CB] px-5 py-3 text-sm font-bold text-white transition-colors hover:bg-[#177fb1]"
           >
             <ArrowLeft size={16} />
@@ -147,79 +221,82 @@ export default async function BlogPostPage(props: PageProps<"/blog/[slug]">) {
 
   const { post, relatedPosts } = data;
   const articleUrl = `${SITE_URL}/blog/${post.slug}`;
-  const schema = {
+  const wordCount = post.plainTextContent.split(/\s+/).filter(Boolean).length;
+
+  const blogPostingSchema = {
     "@context": "https://schema.org",
-    "@graph": [
+    "@type": "BlogPosting",
+    "@id": `${articleUrl}#blogposting`,
+    headline: stripHtml(post.title),
+    description: post.excerpt,
+    image: post.image,
+    datePublished: post.isoDate,
+    dateModified: post.modifiedDate,
+    author: {
+      "@type": "Person",
+      name: post.author,
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Edunav",
+      url: SITE_URL,
+      logo: {
+        "@type": "ImageObject",
+        url: `${SITE_URL}/assets/edunav.png`,
+        width: 512,
+        height: 512,
+      },
+    },
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": articleUrl,
+    },
+    inLanguage: "id-ID",
+    wordCount: wordCount,
+    articleSection: post.category,
+    keywords: post.tags.length > 0 ? post.tags.join(", ") : undefined,
+  };
+
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
       {
-        "@type": "Article",
-        "@id": `${articleUrl}#article`,
-        headline: stripHtml(post.title),
-        description: post.excerpt,
-        image: [post.image],
-        datePublished: post.isoDate,
-        dateModified: post.isoDate,
-        articleSection: post.category,
-        articleBody: post.plainTextContent,
-        author: {
-          "@type": "Person",
-          name: post.author,
-        },
-        publisher: {
-          "@type": "Organization",
-          name: "Edunav",
-          url: SITE_URL,
-          logo: {
-            "@type": "ImageObject",
-            url: `${SITE_URL}/assets/edunav.png`,
-          },
-        },
-        mainEntityOfPage: {
-          "@type": "WebPage",
-          "@id": articleUrl,
-        },
-        inLanguage: "id-ID",
-        wordCount: post.plainTextContent.split(/\s+/).filter(Boolean).length,
-        keywords: post.tags.join(", "),
+        "@type": "ListItem",
+        position: 1,
+        name: "Home",
+        item: SITE_URL,
       },
       {
-        "@type": "BreadcrumbList",
-        itemListElement: [
-          {
-            "@type": "ListItem",
-            position: 1,
-            name: "Home",
-            item: SITE_URL,
-          },
-          {
-            "@type": "ListItem",
-            position: 2,
-            name: "Blog",
-            item: `${SITE_URL}/#blog`,
-          },
-          {
-            "@type": "ListItem",
-            position: 3,
-            name: post.category,
-            item: articleUrl,
-          },
-          {
-            "@type": "ListItem",
-            position: 4,
-            name: stripHtml(post.title),
-            item: articleUrl,
-          },
-        ],
+        "@type": "ListItem",
+        position: 2,
+        name: "Blog",
+        item: `${SITE_URL}/blog`,
+      },
+      {
+        "@type": "ListItem",
+        position: 3,
+        name: post.category,
+        item: articleUrl,
       },
     ],
   };
 
   return (
-    <>
-      <BlogPostClient post={post} relatedPosts={relatedPosts} />
+    <div>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(blogPostingSchema).replace(/</g, "\\u003c"),
+        }}
       />
-    </>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(breadcrumbSchema).replace(/</g, "\\u003c"),
+        }}
+      />
+      <BlogPostClient post={post} relatedPosts={relatedPosts} />
+    </div>
   );
 }

@@ -220,6 +220,15 @@ export const metadata: Metadata = {
   authors: [{ name: "PT Global Zerone Digital" }],
   creator: "Edunav",
   publisher: "PT Global Zerone Digital",
+  icons: {
+    icon: [
+      { url: "/assets/icon.png", sizes: "512x512", type: "image/png" },
+    ],
+    apple: [
+      { url: "/assets/icon.png", sizes: "512x512", type: "image/png" },
+    ],
+  },
+  manifest: "/manifest.json",
   robots: {
     index: true,
     follow: true,
@@ -268,6 +277,10 @@ export const metadata: Metadata = {
     images: ["https://www.edunav.net/assets/edunav-banner.webp"],
     creator: "@edunav_id",
   },
+  other: {
+    "ai-search": "enabled",
+    "ai-summary": "Edunav adalah sistem informasi manajemen sekolah (SIMS) terintegrasi untuk sekolah modern di Indonesia dan Asia. Solusi lengkap untuk manajemen akademik, LMS, keuangan, dan komunikasi sekolah-orang tua.",
+  },
 };
 
 export default function RootLayout({
@@ -312,19 +325,14 @@ fbq('track', 'PageView');`}
         </noscript>
 
         {/* JSON-LD Structured Data */}
-        <Script
-          id="json-ld"
+        <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c"),
+          }}
         />
 
-        {/* AI Search Meta Tags */}
-        <meta name="ai-search" content="enabled" />
-        <meta name="ai-summary" content="Edunav adalah sistem informasi manajemen sekolah (SIMS) terintegrasi untuk sekolah modern di Indonesia dan Asia. Solusi lengkap untuk manajemen akademik, LMS, keuangan, dan komunikasi sekolah-orang tua." />
         <link rel="alternate" type="application/rss+xml" title="Edunav Blog RSS" href="https://www.edunav.net/rss" />
-
-        {/* IndexNow for Real-time Indexing */}
-        <meta name="indexnow" content="https://www.edunav.net/indexnow" />
 
         <div className="min-h-screen w-full bg-white relative">
           {/* Content */}

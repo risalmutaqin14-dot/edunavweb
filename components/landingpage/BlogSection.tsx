@@ -6,7 +6,6 @@ import Link from "next/link";
 import { useTranslation } from "react-i18next";
 import { motion, AnimatePresence } from "framer-motion";
 import { User, ChevronLeft, ChevronRight, ArrowRight, Calendar } from "lucide-react";
-import { generateBlogItemListSchema, generateBlogCollectionSchema, type BlogPostForSchema } from "@/src/lib/schemas";
 
 // Helper function to decode HTML entities
 const decodeHTMLEntities = (text: string): string => {
@@ -110,44 +109,6 @@ fetchPosts();
 
 
 }, [page]);
-
-// Inject JSON-LD schema when posts are loaded
-useEffect(() => {
-  if (posts.length === 0) return;
-
-  // Convert posts to schema format
-  const postsForSchema: BlogPostForSchema[] = posts.map((p) => ({
-    id: p.id,
-    slug: p.slug,
-    title: p.title.replace(/<[^>]+>/g, ""),
-    excerpt: p.excerpt.replace(/<[^>]+>/g, ""),
-    date: p.date,
-    isoDate: new Date().toISOString(), // WordPress API already has the date
-    image: p.image,
-    author: p.author,
-  }));
-
-  // Generate schema
-  const schema = generateBlogCollectionSchema(postsForSchema, page, totalPages);
-
-  // Check if script already exists
-  let script = document.getElementById("blog-listing-schema") as HTMLScriptElement;
-  if (!script) {
-    script = document.createElement("script");
-    script.id = "blog-listing-schema";
-    script.type = "application/ld+json";
-    document.head.appendChild(script);
-  }
-  script.textContent = JSON.stringify(schema);
-
-  return () => {
-    // Cleanup on unmount
-    script = document.getElementById("blog-listing-schema") as HTMLScriptElement;
-    if (script) {
-      script.remove();
-    }
-  };
-}, [posts, page, totalPages]);
 
 const handlePageChange = (newPage: number) => {
 setPage(newPage);
