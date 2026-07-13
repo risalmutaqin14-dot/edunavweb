@@ -142,9 +142,16 @@ const resources = {
         },
       },
       Partners: {
-        tag : "Mitra",
-        title: "Wujudkan Pendidikan yang Lebih Baik",
-        desc: "Jalin Kemitraan dengan Edunav untuk Meningkatkan Kualitas Pengelolaan Sekolah",
+        tag: "Mitra Terpercaya",
+        title: "Bersama 175+ Sekolah Membangun Pendidikan Digital Indonesia",
+        desc: "Edunav dipercaya oleh institusi pendidikan terbaik di Indonesia untuk transformasi digital manajemen sekolah yang terintegrasi, aman, dan modern.",
+        carousel_title: "Dipercaya oleh Sekolah-Sekolah Terbaik",
+        sekolah_garuda: {
+          badge: "Prestasi Nasional",
+          title: "Sekolah Garuda 2026",
+          desc: "EDUNAV bangga mendampingi sekolah-sekolah terbaik di Indonesia yang berhasil lolos seleksi program Sekolah Menengah Atas Unggul Garuda Transformasi oleh Kementerian Pendidikan Tinggi, Sains, dan Teknologi.",
+          subtitle: "Selamat atas pencapaian sekolah-sekolah berikut:",
+        },
       },
       testimonials: {
         title: "Apa Kata Mereka Tentang Edunav?",
@@ -450,15 +457,17 @@ const resources = {
         desc: "Diskusikan dengan tim kami bagaimana Edunav dapat mendukung kebutuhan operasional dan strategi digital jangka panjang sekolah Anda.",
       },
       blog: {
-        tag: "Artikel",
-        title: "Berita & Artikel",
-        "sub-title":
-          "Update, tips, dan studi kasus tentang penggunaan Edunav di sekolah.",
+        tag: "Blog & Wawasan",
+        title: "Artikel Terbaru Seputar Edukasi & Teknologi",
+        "sub-title": "Temukan inspirasi, tips praktis, dan studi kasus tentang transformasi digital di dunia pendidikan beserta update terbaru dari Edunav.",
         read_more: "Baca Selengkapnya",
         prev: "Sebelumnya",
         next: "Selanjutnya",
         not_found: "Artikel tidak ditemukan.",
         back_to_blog: "Kembali ke Beranda",
+        featured: "Unggulan",
+        latest_posts: "Artikel Terbaru",
+        view_all: "Lihat Semua",
       },
       blogpost: {
         breadcrumb_home: "Beranda",
@@ -750,9 +759,16 @@ const resources = {
         },
       },
       Partners: {
-        tag : "Partners",
-        title: "Realize Better Education",
-        desc: "Partner with Edunav to Improve School Management Quality",
+        tag: "Trusted Partners",
+        title: "Building Digital Education in Indonesia with 175+ Schools",
+        desc: "Edunav is trusted by the best educational institutions in Indonesia for integrated, secure, and modern school management digital transformation.",
+        carousel_title: "Trusted by the Best Schools",
+        sekolah_garuda: {
+          badge: "National Achievement",
+          title: "Sekolah Garuda 2026",
+          desc: "EDUNAV is proud to partner with Indonesia's top schools that successfully passed the selection for the Superior Senior High School Garuda Transformation program by the Ministry of Higher Education, Science, and Technology.",
+          subtitle: "Congratulations to the following schools:",
+        },
       },
       testimonials: {
         title: "What Do They Say About Edunav?",
@@ -1055,15 +1071,17 @@ const resources = {
         desc: "Talk to our team to explore how Edunav can support your school’s operational needs and long-term digital strategy.",
       },
       blog: {
-        tag: "Articles",
-        title: "News & Articles",
-        "sub-title":
-          "Updates, tips, and case studies about using Edunav in schools.",
+        tag: "Blog & Insights",
+        title: "Latest Articles on Education & Technology",
+        "sub-title": "Discover inspiration, practical tips, and case studies on digital transformation in education along with the latest updates from Edunav.",
         read_more: "Read More",
         prev: "Prev",
         next: "Next",
         not_found: "Article not found.",
         back_to_blog: "Back to Home",
+        featured: "Featured",
+        latest_posts: "Latest Posts",
+        view_all: "View All",
       },
       blogpost: {
         breadcrumb_home: "Home",
