@@ -201,7 +201,7 @@ export default function Partners() {
             variants={itemVariants}
             className="relative rounded-[2rem] md:rounded-[2.5rem] p-8 md:p-14 lg:p-16 text-white overflow-hidden"
             style={{
-              background: `linear-gradient(135deg, #12AAC9 0%, #7897D6 50%, #12AAC9 100%)`,
+              background: `linear-gradient(135deg, #0793AE 100%, #7897D6 10%)`,
               backgroundSize: "200% 200%",
               animation: "gradientShift 8s ease infinite",
             }}

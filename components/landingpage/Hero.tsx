@@ -31,11 +31,11 @@ export default function Hero() {
 
   return (
     <header id="home" className="hero-section mt-0 pt-20 pb-0 md:pt-2 md:pb-0 relative">
-      <div className="container hero-container"> 
-        
+      <div className="container hero-container">
+
         {/* --- KIRI: TEKS & TOMBOL --- */}
         <div className="hero-left animate-fade-in">
-          <h1 className="text-h1 lg:text-[2.5rem] font-extrabold leading-tight tracking-tight">
+          <h1 className="text-[clamp(2rem,5vw,3rem)] lg:text-[3.25rem] font-extrabold leading-[1.15] tracking-tight" style={{ background: "linear-gradient(135deg, #0f172a 0%, #0891b2 50%, #6366f1 100%)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", backgroundClip: "text" }}>
             {t('hero.title')}
           </h1>
           <p className="mt-6 text-body text-[14px] md:text-[15px] lg:text-[15px] text-slate-700 max-w-2xl leading-7">
@@ -65,7 +65,7 @@ export default function Hero() {
           </div>
 
           <div className="flex gap-3 h-auto max-w-[350px] mx-auto md:mx-0 md:w-[550px] app-badges mt-10 z-2 ">
-            <a 
+            <a
               href="https://play.google.com/store/apps/details?id=eduversal.eduversal_mobile&hl=id"
               target="_blank"
               rel="noopener noreferrer"
@@ -79,7 +79,7 @@ export default function Hero() {
                 style={{ width: 'auto', height: 'auto' }}
               />
             </a>
-            <a 
+            <a
               href="https://apps.apple.com/id/app/edunav/id1616739654"
               target="_blank"
               rel="noopener noreferrer"
@@ -108,7 +108,7 @@ export default function Hero() {
             priority // PENTING: Pengganti fetchpriority="high". Memberitahu Next.js gambar ini wajib diload pertama kali untuk skor LCP yang baik.
           />
         </div>
-        
+
       </div>
     </header>
   );
