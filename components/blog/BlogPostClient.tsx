@@ -206,7 +206,7 @@ export default function BlogPostClient({ post, relatedPosts }: BlogPostClientPro
         >
           <div className="relative overflow-hidden rounded-[2.2rem] border border-white/70 bg-slate-200 shadow-[0_28px_90px_rgba(15,23,42,0.16)]">
             <div className="relative aspect-[16/10] md:aspect-[21/10]">
-              <Image src={post.image} alt={stripHtml(post.title)} fill priority className="object-cover" />
+              <Image src={post.image} alt={stripHtml(post.title)} fill sizes="100vw" priority className="object-cover" unoptimized />
             </div>
           </div>
         </motion.section>

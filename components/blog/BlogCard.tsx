@@ -34,6 +34,7 @@ export default function BlogCard({ post }: BlogCardProps) {
             fill
             sizes="(max-w: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
             className="object-cover group-hover:scale-105 transition-transform duration-700 ease-out"
+            unoptimized
           />
           {/* Category Badge */}
           <div className="absolute top-3 left-3">

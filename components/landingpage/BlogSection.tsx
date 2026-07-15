@@ -229,7 +229,7 @@ export default function BlogSection() {
                   >
                     {/* Image Area with Gradient Overlay */}
                     <div className="relative h-52 w-full overflow-hidden shrink-0">
-                      <Link href={`/blog/${p.slug}`} className="block w-full h-full">
+                      <Link href={`/blog/${p.slug}`} className="block w-full h-full relative">
                         <Image
                           src={p.image}
                           alt={p.title}
@@ -237,6 +237,7 @@ export default function BlogSection() {
                           sizes="(max-width: 768px) 100vw, 25vw"
                           className="object-cover group-hover:scale-110 transition-transform duration-700 ease-out"
                           priority={page === 1}
+                          unoptimized
                         />
                         {/* Gradient Overlay */}
                         <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-60" />

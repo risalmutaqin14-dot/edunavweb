@@ -195,6 +195,7 @@ export default function Navbar({ onOpenMobileMenu, navbarRef }: NavbarProps) {
                 src={Logos.edunav}
                 alt="Logo Edunav"
                 fill
+                sizes="(max-width: 768px) 112px 144px"
                 className="object-contain"
                 priority
               />
@@ -242,6 +243,7 @@ export default function Navbar({ onOpenMobileMenu, navbarRef }: NavbarProps) {
                     src={mounted && i18n.language === "en" ? Logos.unitedkingdom : Logos.indonesia}
                     alt={mounted && i18n.language === "en" ? "English" : "Indonesia"}
                     fill
+                    sizes="20px"
                     className="object-cover"
                   />
                 </span>
@@ -260,7 +262,7 @@ export default function Navbar({ onOpenMobileMenu, navbarRef }: NavbarProps) {
                     }`}
                   >
                     <span className="relative w-5 h-5 overflow-hidden rounded-full">
-                      <Image src={Logos.indonesia} alt="Indonesia" fill className="object-cover" />
+                      <Image src={Logos.indonesia} alt="Indonesia" fill sizes="20px" className="object-cover" />
                     </span>
                     Indonesia
                   </button>
@@ -273,7 +275,7 @@ export default function Navbar({ onOpenMobileMenu, navbarRef }: NavbarProps) {
                     }`}
                   >
                     <span className="relative w-5 h-5 overflow-hidden rounded-full">
-                      <Image src={Logos.unitedkingdom} alt="English" fill className="object-cover" />
+                      <Image src={Logos.unitedkingdom} alt="English" fill sizes="20px" className="object-cover" />
                     </span>
                     English
                   </button>
@@ -357,7 +359,7 @@ export default function Navbar({ onOpenMobileMenu, navbarRef }: NavbarProps) {
                 className={`w-10 h-10 flex items-center justify-center rounded-full border-2 transition-all ${mounted && i18n.language === "id" ? "border-[#0369a1] shadow-md" : "border-transparent opacity-60"}`}
               >
                 <div className="relative w-6 h-6 overflow-hidden rounded-full">
-                  <Image src={Logos.indonesia} alt="Indonesia" fill className="object-cover" />
+                  <Image src={Logos.indonesia} alt="Indonesia" fill sizes="24px" className="object-cover" />
                 </div>
               </button>
               <button
@@ -365,7 +367,7 @@ export default function Navbar({ onOpenMobileMenu, navbarRef }: NavbarProps) {
                 className={`w-10 h-10 flex items-center justify-center rounded-full border-2 transition-all ${mounted && i18n.language === "en" ? "border-[#0369a1] shadow-md" : "border-transparent opacity-60"}`}
               >
                 <div className="relative w-6 h-6 overflow-hidden rounded-full">
-                  <Image src={Logos.unitedkingdom} alt="English" fill className="object-cover" />
+                  <Image src={Logos.unitedkingdom} alt="English" fill sizes="24px" className="object-cover" />
                 </div>
               </button>
             </div>
